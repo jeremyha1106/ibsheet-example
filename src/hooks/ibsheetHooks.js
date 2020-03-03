@@ -5,7 +5,7 @@ export const useIbsheet = id => {
     const [ibsheet, setIbsheet] = useState();
 
     useEffect(() => {
-        loader.once('created-sheet', () => {
+        loader.on('created-sheet', () => {
             const sheet = window['IBSheet'];
             const sheetById = sheet.find(item => item != null && String(item.id) === String(id));
             setIbsheet(sheetById);

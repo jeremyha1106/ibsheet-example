@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 export const createData = count => {
   var company = ['Google', 'Apple', 'Samsung', 'LG', 'Yahoo', 'Microsoft', 'Metanet', 'SK', 'McDonald', 'Amazon'];
   var country = ['Korea', 'USA', 'Vietnam', 'China', 'France', 'Japan', 'Singapore', 'Thailand', 'Cambodia', 'Taiwan'];
@@ -11,6 +13,7 @@ export const createData = count => {
       "sSaleIncrease": Math.floor(Math.random() * 10000),
       "sPrice": Math.floor(Math.random() * 10000000),
       "sSatisfaction": Math.floor(Math.random() * (100 - 50 + 1) + 50),
+      "sDate": moment().format('dd-MM-yyyy').toString()
     });
   }
 

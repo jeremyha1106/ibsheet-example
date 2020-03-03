@@ -1,0 +1,1526 @@
+/* IBSheet8 CSS definition, https://www.ibsheet.com */
+.IBCLMain *{-webkit-box-sizing:content-box!important;-moz-box-sizing:content-box!important;box-sizing:content-box!important}
+.IBCLMain button,.IBCLMain input{height:auto}
+.IBCLMain b,.IBCLMain .Bold{color:blue;font-weight:bold}
+.IBCLMain i,.IBCLMain .Blue{color:blue;font-style:normal}
+.IBCLMain em,.IBCLMain .Red{color:red;font-style:normal}
+.IBCLMain s,.IBCLMain .Gray{color:gray;text-decoration:none}
+.IBCLNone{display:none}
+.IBCLSection,.IBCLSectionFF3{table-layout:fixed;width:0px;font-size:0px;line-height:0px;contain:paint;border-collapse:separate}
+.IBCLSectionFF3{border-collapse:collapse}
+.IBCLSection img{vertical-align:top}
+.IBCLMainTable{border:1px solid #a1a1a1;border-collapse:separate;text-align:left;background:white;padding:0px}
+.IBCLRtl .IBCLMainTable{text-align:right}
+.IBCLHeadLeft,.IBCLHeadMid,.IBCLHeadRight{border-top:1px solid #e1e1e1}
+.IBCLBodyLeft,.IBCLBodyMid,.IBCLBodyRight{border-top:1px solid black}
+.IBCLFootLeft,.IBCLFootMid,.IBCLFootRight{border-top:1px solid black}
+.IBCLHeadLeft,.IBCLBodyLeft,.IBCLFootLeft{border-right:1px solid #e1e1e1}
+.IBCLHeadMid,.IBCLBodyMid,.IBCLFootMid{border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1}
+.IBCLHeadRight,.IBCLBodyRight,.IBCLFootRight{border-left:1px solid #e1e1e1}
+.IBCLSectionScroll::-webkit-scrollbar{display:none}
+.IBCLLeftSplitter,.IBCLRightSplitter{width:5px;background:#E1F1FF;overflow:hidden;cursor:e-resize;font-size:0px}
+.IBCLTouch .IBCLLeftSplitter,.IBCLTouch .IBCLRightSplitter{width:15px}
+.IBCLLeftSplitter{border-right:1px solid #c0c0ff}
+.IBCLRightSplitter{border-left:1px solid #c0c0ff}
+.IBCLSplitterDisabled{background:white;cursor:default}
+.IBCLVScroll{border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;border-left:1px solid #c0c0ff;overflow:hidden}
+.IBCLVScrollHeadPadding{border-top:1px solid #e1e1e1;border-left:1px solid #c0c0ff}
+.IBCLHScrollLeft,.IBCLHScrollMid,.IBCLHScrollRight{overflow:hidden}
+.IBCLHScrollLeft{border-right:1px solid #c0c0ff}
+.IBCLHScrollMid{border-left:1px solid #c0c0ff;border-right:1px solid #c0c0ff}
+.IBCLHScrollRight{border-left:1px solid #c0c0ff}
+.IBCLHScrollLeftResize,.IBCLHScrollRightResize,.IBCLHScrollMidLeftResize,.IBCLHScrollMidRightResize{background:#F4F4F4;overflow:hidden}
+.IBCLHScrollLeftResize{border-right:2px solid black;padding-left:1px;padding-right:5px}
+.IBCLHScrollRightResize{border-left:2px solid black;padding-left:5px;padding-right:1px}
+.IBCLHScrollMidLeftResize{border-left:1px solid black;padding-left:5px}
+.IBCLHScrollMidRightResize{border-right:1px solid black;padding-right:5px}
+.IBCLTouch .IBCLHScrollLeftResize{padding-right:18px}
+.IBCLTouch .IBCLHScrollRightResize{padding-left:18px}
+.IBCLTouch .IBCLHScrollMidLeftResize{padding-left:19px}
+.IBCLTouch .IBCLHScrollMidRightResize{padding-right:19px}
+.IBCLHScrollWide{padding-left:1px;padding-right:1px;overflow:hidden}
+.IBCLHScrollHidden{overflow:visible!important;background:#F4F4F4}
+.IBCLXScroll{background:#F4F4F4;cursor:default}
+.SheetHiddenScroll > div::-webkit-scrollbar{-webkit-appearance:none;width:11px;height:11px}
+.SheetHiddenScroll > div::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid white;background-color:rgba(0,0,0,0.5)}
+.IBCLRowHeight{height:30px}
+.IBCLTouch .IBCLRowHeight{height:30px}
+.IBCLSpaceRowHeight{height:32px}
+.IBCLSpaceMargin{margin:0px}
+.IBCLSpaceRow,.IBCLGroupRow,.IBCLSearchRow,.IBCLPagerRow,.IBCLToolbarRow,.IBCLToolbar1Row,.IBCLToolbar2Row,.IBCLToolbar3Row,.IBCLTopbarRow,.IBCLTopbar1Row,.IBCLTopbar2Row,.IBCLTopbar3Row,.IBCLTabberRow{padding:5px 3px 5px 3px;font-size:0px;overflow:hidden;white-space:nowrap;}
+.IBCLSpaceRow{background:#E8F4FF;padding:2px 0px 2px 0px}
+ .IBCLGroupRow{background:#F1F1F1;border-bottom:1px solid #c2c3cb}
+ .IBCLSearchRow{background:#F1F1F1;border-top:1px solid #c2c3cb}
+ .IBCLPagerRow{background-position:0px -1801px}
+ .IBCLToolbarRow{background-position:0px -500px;border-top:1px solid black}
+ .IBCLToolbar1Row{background-position:0px -1801px;border-top:1px solid black}
+ .IBCLToolbar2Row{background-position:0px -500px}
+ .IBCLToolbar3Row{background:#D5E9FE}
+ .IBCLTopbarRow{background-position:0px -1801px;border-bottom:1px solid black}
+ .IBCLTopbar1Row{background-position:0px -1801px}
+ .IBCLTopbar2Row{background-position:0px -500px;border-bottom:1px solid black}
+ .IBCLTopbar3Row{background:#D5E9FE}
+ .IBCLTabberRow{background:#E8F4FF;padding:0px}
+ .IBCLFillRow{background:#E8F4FF}
+.IBCLNoDataRow{border-top:1px solid black;padding:5px 0px 5px 5px;overflow:hidden}
+.IBCLNoDataRow div{color:gray!important;font-style:italic!important}
+.IBCLRowAbove,.IBCLRowBelow{background:#fff;border-left:none;border-right:none;overflow:hidden}
+.IBCLRowAbove{margin-top:3px}
+.IBCLRowBelow{margin-bottom:3px}
+.IBCLCellBase{border-bottom:1px solid #e8e8e8;border-right:1px solid #e1e1e1;border-left:0px none;border-top:0px none;vertical-align:top;overflow:hidden;overflow:auto!IE;height:auto;}
+.IBCLCellHeader,.IBCLCellHeaderEmpty{background:#f9f9fa;color:#2d384a;font-size:14px;font-weight:bold;vertical-align:middle}
+.IBCLCellIndex,.IBCLCellIndexAlternate,.IBCLCellIndexEmpty{color:#636572}
+.IBCLCellIndex{background:#FFFFFF}
+.IBCLIndexSmall{margin-bottom:-50px}
+.IBCLCellUser{background-color:#E8F4FF}
+.IBCLCellEmpty{background:white;border-bottom-color:white}
+.IBCLCellHidden{background:transparent!important;border:none!important}
+.IBCLCellBorder,.IBCLCellHeaderBorder,.IBCLCellNoBorder{border-left:2px solid transparent;border-top:2px solid transparent}
+.IBCLCellNoBorder{border-color:transparent}
+.IBCLLastCell{border-right:1px solid;border-bottom:0px solid}
+.IBCLCellClassInner{padding-top:0px;padding-bottom:0px}
+.IBCLCellHeaderInnerIcon{padding-top:3px;padding-bottom:2px}
+.IBCLCellBorderFF3{border-left:0px none!important;border-top:0px none!important}
+.IBCLType,.IBCLUser{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;padding:5px 5px 5px 5px}
+.IBCLInt,.IBCLFloat,.IBCLDate{text-align:right}
+.IBCLLines,.IBCLRadio,.IBCLHtml,.IBCLList{white-space:normal}
+.IBCLImg,.IBCLHtml{padding-top:0px;padding-bottom:0px}
+.IBCLPass{font-size:15px;line-height:17px;padding:0px 0px 0px 3px}
+.IBCLRadio{padding:0px}
+.IBCLBool{text-align:center;line-height:0px}
+.IBCLIcon{background-repeat:no-repeat}
+.IBCLAbs{padding:0px}
+.IBCLUser{padding:0px}
+.IBCLSelect{padding-top:2px;padding-bottom:2px}
+.IBCLIndexText{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#636572;padding:5px 5px 5px 5px;text-align:center}
+.IBCLHiddenSpace{display:none}
+.IBCLHiddenValue,.IBCLHiddenValue *{color:transparent!important}
+.IBCLMain .IBCLOverflowVisible,.IBCLMain .IBCLOverflowLeftVisible{overflow:visible}
+.IBCLMain .IBCLOverflowLeftVisible>div{float:right}
+.IBCLMain .IBCLOverflowDisable{background-color:white;opacity:0.99}
+.IBCLMain.IBCLIE .IBCLOverflowDisable{opacity:1;position:relative}
+button.IBCLRightButton{font:10px/11px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:17px;width:19px;margin:0px;padding:0px}
+u.IBCLRightButton{background:#fff;border:solid 1px #6c6c6e;padding:1px 5px 0px 5px;margin:0.5rem 0.2rem;font:12px Arial,Helvetica,sans-serif;color:#222222;text-decoration:none;display:inline-block;overflow:hidden;white-space:nowrap;}
+.IBCLRightHtml{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding-top:2px;padding-bottom:2px}
+.IBCLLevelButton{background:url(./imgs/Button.gif?v120) 2px -1750px no-repeat;padding:5px 0px 4px 0px;width:21px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:black;text-align:center!important;cursor:pointer;}
+.IBCLLevelButtonSpace{width:5px}
+.IBCLLevels>table{width:100%}
+.IBCLMergedCellH{padding:0px;padding-right:5px}
+.IBCLMergedCellV{padding:0px;padding-bottom:1px}
+.IBCLHeaderText{font:14px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;font-weight:bold;color:#2d384a;padding:5px 3px 4px 3px}
+.IBCLHeaderIconInner{padding-top:2px;padding-bottom:2px}
+.IBCLHeaderButton{padding:3px 0px 2px 0px}
+.IBCLHeaderButtonButton{padding:3px 0px 2px 0px}
+.IBCLHeaderButtonHtml{padding:5px 1px 4px 1px;color:white}
+.IBCLHeaderToolButton{text-align:center;padding:3px 0px 2px 0px}
+.IBCLHeaderFocus{background:#9FB9E9}
+.IBCLHeaderDrag{background:#9FB9E9;cursor:default;overflow:hidden;border-right:1px solid white}
+.IBCLHeaderResize{border-right:2px solid white}
+.IBCLDropCols{padding:4px 4px 3px 4px!important}
+.IBCLHeaderGroup{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;background:#7FA9E6;color:white;padding-left:3px;border-right:1px solid white}
+.IBCLHeaderGroupFocus{background-color:#C0C0A0}
+.IBCLHeaderGroupDelete{background-color:#F0F0E0;color:white}
+.IBCLHeaderGroupCustom{font:italic 13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#BBB;padding:1px 0px 0px 5px;white-space:nowrap}
+.IBCLHeaderGroupCustom:hover{background-color:#ddd;color:#000}
+ .IBCLResizingRow{border-bottom:1px solid black}
+.IBCLCellRotate{text-align:left}
+.IBCLRotate1,.IBCLRotate2{overflow:hidden;white-space:nowrap;display:inline-block;writing-mode:tb-rl}
+.IBCLRotate1{-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.IBCLIconRotate{padding-left:2px!important;padding-top:20px!important;padding-right:2px!important;background-position-x:left!important}
+.IBCLIconRotateHeader{background-position-x:3px!important}
+.IBCLIconRotate.IBCLAlignCenter{background-position-x:center!important}
+.IBCLIconRotate.IBCLAlignRight{background-position-x:right!important}
+.IBCLWrap0{white-space:nowrap}
+.IBCLWrap1{white-space:normal}
+.IBCLAlignLeft{text-align:left}
+.IBCLAlignCenter{text-align:center}
+.IBCLAlignJustify{text-align:justify}
+.IBCLAlignRight{text-align:right}
+.IBCLVAlignMiddle{vertical-align:middle!important;display:table-cell}
+.IBCLVAlignBottom{vertical-align:bottom!important;display:table-cell}
+.IBCLVAlignTop{vertical-align:top!important;display:table-cell}
+.IBCLTextBold{font-weight:bold}
+.IBCLTextItalic{font-style:italic}
+.IBCLTextUnderline{text-decoration:underline}
+.IBCLTextStrike{text-decoration:line-through}
+.IBCLTextOverline{text-decoration:overline}
+.IBCLTextUnderlineStrike{text-decoration:underline line-through}
+.IBCLTextUnderlineOverline{text-decoration:underline overline}
+.IBCLTextStrikeOverline{text-decoration:line-through overline}
+.IBCLTextUnderlineStrikeOverline{text-decoration:underline line-through overline}
+.IBCLTextSmall{font-variant:small-caps}
+.IBCLTextShadow0{text-shadow:0px 0px 5px}
+.IBCLTextShadow1{text-shadow:-1px -1px}
+.IBCLTextShadow2{text-shadow:-1px -1px, -3px -3px silver}
+.IBCLTextShadow3{text-shadow:-1px -1px, 0px 0px 5px}
+.IBCLTextShadow4{text-shadow:-1px -1px, 0px 0px 10px}
+.IBCLTextShadow5{text-shadow:-2px -2px silver}
+.IBCLTextShadow6{text-shadow:-3px -3px silver, -1px -1px}
+.IBCLTextShadow7{text-shadow:0px 0px 3px black,0px 0px 3px black,0px 0px 3px black}
+.IBCLTextShadow8{text-shadow:0px 0px 5px yellow, -1px -1px}
+.IBCLTextShadow9{text-shadow:0px 0px 10px}
+.IBCLMain .IBCLIndentLeft1{padding-left:10px}
+ .IBCLMain .IBCLIndentRight1{padding-right:10px}
+.IBCLMain .IBCLIndentLeft2{padding-left:20px}
+ .IBCLMain .IBCLIndentRight2{padding-right:20px}
+.IBCLMain .IBCLIndentLeft3{padding-left:30px}
+ .IBCLMain .IBCLIndentRight3{padding-right:30px}
+.IBCLMain .IBCLIndentLeft4{padding-left:40px}
+ .IBCLMain .IBCLIndentRight4{padding-right:40px}
+.IBCLMain .IBCLIndentLeft5{padding-left:50px}
+ .IBCLMain .IBCLIndentRight5{padding-right:50px}
+.IBCLMain .IBCLIndentLeft6{padding-left:60px}
+ .IBCLMain .IBCLIndentRight6{padding-right:60px}
+.IBCLMain .IBCLIndentLeft7{padding-left:70px}
+ .IBCLMain .IBCLIndentRight7{padding-right:70px}
+.IBCLMain .IBCLIndentLeft8{padding-left:80px}
+ .IBCLMain .IBCLIndentRight8{padding-right:80px}
+.IBCLMain .IBCLIndentLeft9{padding-left:90px}
+ .IBCLMain .IBCLIndentRight9{padding-right:90px}
+.IBCLMain .IBCLIndentLeft10{padding-left:100px}
+ .IBCLMain .IBCLIndentRight10{padding-right:100px}
+.IBCLMain .IBCLIndentLeft15{padding-left:150px}
+ .IBCLMain .IBCLIndentRight15{padding-right:150px}
+.IBCLMain .IBCLIndentLeft20{padding-left:200px}
+ .IBCLMain .IBCLIndentRight20{padding-right:200px}
+.IBCLMain .IBCLIndentLeft25{padding-left:250px}
+ .IBCLMain .IBCLIndentRight25{padding-right:250px}
+.IBCLMain .IBCLIndentLeft30{padding-left:300px}
+ .IBCLMain .IBCLIndentRight30{padding-right:300px}
+.IBCLMain .IBCLIndentLeft35{padding-left:350px}
+ .IBCLMain .IBCLIndentRight30{padding-right:350px}
+.IBCLMain .IBCLIndentLeft40{padding-left:400px}
+ .IBCLMain .IBCLIndentRight40{padding-right:400px}
+.IBCLMain .IBCLIndentLeft45{padding-left:450px}
+ .IBCLMain .IBCLIndentRight40{padding-right:450px}
+.IBCLMain .IBCLIndentLeft50{padding-left:500px}
+ .IBCLMain .IBCLIndentRight50{padding-right:500px}
+.IBCLCellSpace,.IBCLCellSpaceIcon,.IBCLCellSpaceButton,.IBCLCellSpaceButtonIcon,.IBCLCellSpaceButtonButton,.IBCLCellSpaceBool,.IBCLCellSpaceRadio,.IBCLCellSpaceSelect,.IBCLCellSpaceEdit{vertical-align:top;}
+.IBCLCellSpace{padding-top:5px;padding-bottom:3px}
+.IBCLCellSpaceIcon{padding-top:2px;padding-bottom:3px}
+.IBCLSpaceIconInner{padding-top:3px;padding-bottom:0px}
+.IBCLSpaceIconInner > div{overflow:hidden}
+.IBCLCellSpaceButton{padding-top:5px;padding-bottom:3px;white-space:nowrap}
+.IBCLCellSpaceButtonIcon{padding-top:2px;padding-bottom:3px;white-space:nowrap}
+.IBCLSpaceButtonIconInner{padding-top:3px;padding-bottom:0px}
+.IBCLSpaceButtonIconInner > div{overflow:hidden}
+.IBCLCellSpaceTool{padding:0px}
+.IBCLCellSpaceBool{line-height:0px}
+.IBCLCellSpaceRadio{padding-top:3px;padding-bottom:1px}
+.IBCLCellSpaceSelect{padding:0px}
+.IBCLSpaceSelectInner,.IBCLSpaceSelectInnerIcon{border-left:1px solid #696969;padding:5px 20px 3px 3px;background:url(./imgs/BackgroundsRight.gif?v120) right -250px!important;white-space:nowrap;height:22px;}
+.IBCLSpaceSelectInnerIcon{padding:2px 20px 3px 1px;height:16px}
+.IBCLSpaceSelectIconInner{padding-top:3px;padding-bottom:0px}
+.IBCLSpaceSelectIconInner > div{overflow:hidden}
+.IBCLSpaceSelectInnerIE{overflow:hidden;height:21px}
+.IBCLCellSpaceEdit{padding:0px}
+.IBCLSpaceEditInner,.IBCLSpaceEditInnerIcon{border:1px solid #cfd1d6;padding:4px 2px 2px 3px;background:white}
+.IBCLSpaceEditInnerIcon{padding:1px 2px 0px 1px}
+.IBCLSpaceEditIconInner{padding-top:3px;padding-bottom:2px}
+.IBCLSpaceEditIconInner > div{overflow:hidden}
+.IBCLSpaceEditButtonIconInner{padding-top:0px;padding-bottom:0px}
+.IBCLCellSpaceAbove{border-top:none}
+.IBCLCellSpaceBelow{border-bottom:none}
+.IBCLSpaceClassInner{padding-top:0px;padding-bottom:0px}
+.IBCLSpaceWrap{white-space:normal}
+.IBCLCellSpaceWrap{display:inline-block;margin-top:2px;margin-bottom:2px}
+.IBCLCellSpaceWrap.IBCLEmpty{height:21px;padding-top:0px;padding-bottom:0px}
+.IBCLNoLeft,.IBCLNoSpaceLeft{border-left:0px none!important;border-bottom-left-radius:0px!important;border-top-left-radius:0px!important}
+.IBCLNoRight,.IBCLNoSpaceRight{border-right:0px none!important;border-bottom-right-radius:0px!important;border-top-right-radius:0px!important}
+.IBCLEmpty{text-decoration:none!important;font-size:0px!important;line-height:0px!important}
+.IBCLPages{overflow:visible;padding:0px!important}
+.IBCLPagesLink,.IBCLPagesLinkActive{padding:2px 1px 2px 2px;margin:2px 0px 2px 0px;display:inline-block;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;color:blue;}
+.IBCLPagesLinkActive{color:black;font-weight:bold;border:1px dotted black;margin-top:1px;margin-bottom:1px}
+.IBCLTree{padding-top:0px;white-space:nowrap;line-height:0px;font-size:0px;height:0px}
+.IBCLSpannedTree{line-height:0px;font-size:0px;height:0px}
+.IBCLSpannedTree td{vertical-align:top}
+.IBCLNoTreeLines1{text-align:right}
+.IBCLNoTreeLines2{text-align:right;vertical-align:middle;padding-top:0px}
+.IBCLNoTreeLines3{text-align:left}
+.IBCLTreeTop{background-image:url(./imgs/Tree.gif?v120)}
+.IBCLTreeMiddle{background-image:url(./imgs/TreeMiddle.gif?v120)}
+.IBCLTreeBottom{background-image:url(./imgs/TreeBottom.gif?v120)}
+.IBCLTreeRevTop{background-image:url(./imgs/TreeRev.gif?v120)}
+.IBCLTreeRevMiddle{background-image:url(./imgs/TreeRevMiddle.gif?v120)}
+.IBCLTreeRevBottom{background-image:url(./imgs/TreeRevBottom.gif?v120)}
+.IBCLTreeIcon{background-repeat:no-repeat;background-position:left top}
+.IBCLTreeIconM{background-repeat:no-repeat;background-position:left center}
+.IBCLTreeIconB{background-repeat:no-repeat;background-position:left bottom}
+.IBCLTreeImage,.IBCLTreeImageM,.IBCLTreeImageB{display:inline-block;height:100%;width:0px}
+.IBCLTreeImageIE{padding-bottom:1000px}
+.IBCLTreeImageMIE{padding-top:500px;padding-bottom:500px}
+.IBCLTreeImageBIE{padding-top:1000px}
+.IBCLWidth1T{padding-left:26px}
+ .IBCLWidth1{padding-left:21px}
+.IBCLWidth2T{padding-left:47px}
+ .IBCLWidth2{padding-left:42px}
+.IBCLWidth3T{padding-left:68px}
+ .IBCLWidth3{padding-left:63px}
+.IBCLWidth4T{padding-left:89px}
+.IBCL000,.IBCL000T{background-position:0px top}
+ .IBCL000M,.IBCL000TM{background-position:0px center}
+ .IBCL000B,.IBCL000TB{background-position:0px bottom}
+.IBCL010,.IBCL010T{background-position:-128px top}
+ .IBCL010M,.IBCL010TM{background-position:-128px center}
+ .IBCL010B,.IBCL010TB{background-position:-128px bottom}
+.IBCL001,.IBCL001T{background-position:-256px top}
+ .IBCL001M,.IBCL001TM{background-position:-256px center}
+ .IBCL001B,.IBCL001TB{background-position:-256px bottom}
+.IBCL011,.IBCL011T{background-position:-384px top}
+ .IBCL011M,.IBCL011TM{background-position:-384px center}
+ .IBCL011B,.IBCL011TB{background-position:-384px bottom}
+.IBCL100,.IBCL100T{background-position:-512px top}
+ .IBCL100M,.IBCL100TM{background-position:-512px center}
+ .IBCL100B,.IBCL100TB{background-position:-512px bottom}
+.IBCL110,.IBCL110T{background-position:-640px top}
+ .IBCL110M,.IBCL110TM{background-position:-640px center}
+ .IBCL110B,.IBCL110TB{background-position:-640px bottom}
+.IBCL101,.IBCL101T{background-position:-768px top}
+ .IBCL101M,.IBCL101TM{background-position:-768px center}
+ .IBCL101B,.IBCL101TB{background-position:-768px bottom}
+.IBCL111,.IBCL111T{background-position:-896px top}
+ .IBCL111M,.IBCL111TM{background-position:-896px center}
+ .IBCL111B,.IBCL111TB{background-position:-896px bottom}
+.IBCL00,.IBCL00T{background-position:-21px top}
+ .IBCL00M,.IBCL00TM{background-position:-21px center}
+ .IBCL00B,.IBCL00TB{background-position:-21px bottom}
+.IBCL10,.IBCL10T{background-position:-149px top}
+ .IBCL10M,.IBCL10TM{background-position:-149px center}
+ .IBCL10B,.IBCL10TB{background-position:-149px bottom}
+.IBCL01,.IBCL01T{background-position:-277px top}
+ .IBCL01M,.IBCL01TM{background-position:-277px center}
+ .IBCL01B,.IBCL01TB{background-position:-277px bottom}
+.IBCL11,.IBCL11T{background-position:-405px top}
+ .IBCL11M,.IBCL11TM{background-position:-405px center}
+ .IBCL11B,.IBCL11TB{background-position:-405px bottom}
+.IBCL0,.IBCL0T{background-position:-42px top}
+ .IBCL0M,.IBCL0TM{background-position:-42px center}
+ .IBCL0B,.IBCL0TB{background-position:-42px bottom}
+.IBCL1,.IBCL1T{background-position:-298px top}
+ .IBCL1M,.IBCL1TM{background-position:-298px center}
+ .IBCL1B,.IBCL1TB{background-position:-298px bottom}
+.IBCLT{background-position:-63px top}
+ .IBCLTM{background-position:-63px center}
+ .IBCLTB{background-position:-63px bottom}
+.IBCL0TL{background-position:-1024px top}
+ .IBCL0TLM{background-position:-1024px center}
+ .IBCL0TLB{background-position:-1024px bottom}
+.IBCL1TL{background-position:-1088px top}
+ .IBCL1TLM{background-position:-1088px center}
+ .IBCL1TLB{background-position:-1088px bottom}
+.IBCL0C{background-position:-1152px top}
+ .IBCL0CM{background-position:-1152px center}
+ .IBCL0CB{background-position:-1152px bottom}
+.IBCL1C{background-position:-1216px top}
+ .IBCL1CM{background-position:-1216px center}
+ .IBCL1CB{background-position:-1216px bottom}
+.IBCL0CL{background-position:-1280px top}
+ .IBCL0CLM{background-position:-1280px center}
+ .IBCL0CLB{background-position:-1280px bottom}
+.IBCL1CL{background-position:-1344px top}
+ .IBCL1CLM{background-position:-1344px center}
+ .IBCL1CLB{background-position:-1344px bottom}
+.IBCL0E{background-position:-1408px top}
+ .IBCL0EM{background-position:-1408px center}
+ .IBCL0EB{background-position:-1408px bottom}
+.IBCL1E{background-position:-1472px top}
+ .IBCL1EM{background-position:-1472px center}
+ .IBCL1EB{background-position:-1472px bottom}
+.IBCL0EL{background-position:-1536px top}
+ .IBCL0ELM{background-position:-1536px center}
+ .IBCL0ELB{background-position:-1536px bottom}
+.IBCL1EL{background-position:-1600px top}
+ .IBCL1ELM{background-position:-1600px center}
+ .IBCL1ELB{background-position:-1600px bottom}
+.IBCLTL{background-position:-1045px top}
+ .IBCLTLM{background-position:-1045px center}
+ .IBCLTLB{background-position:-1045px bottom}
+.IBCLC{background-position:-1173px top}
+ .IBCLCM{background-position:-1173px center}
+ .IBCLCB{background-position:-1173px bottom}
+.IBCLCL{background-position:-1301px top}
+ .IBCLCLM{background-position:-1301px center}
+ .IBCLCLB{background-position:-1301px bottom}
+.IBCLE{background-position:-1429px top}
+ .IBCLEM{background-position:-1429px center}
+ .IBCLEB{background-position:-1429px bottom}
+.IBCLEL{background-position:-1557px top}
+ .IBCLELM{background-position:-1557px center}
+ .IBCLELB{background-position:-1557px bottom}
+.IBCLD0{background-position:-1664px top}
+ .IBCLD0M{background-position:-1664px center}
+ .IBCLD0B{background-position:-1664px bottom}
+.IBCLD1{background-position:-1696px top}
+ .IBCLD1M{background-position:-1696px center}
+ .IBCLD1B{background-position:-1696px bottom}
+.IBCLD2{background-position:-1728px top}
+ .IBCLD2M{background-position:-1728px center}
+ .IBCLD2B{background-position:-1728px bottom}
+.IBCLD3{background-position:-1760px top}
+ .IBCLD3M{background-position:-1760px center}
+ .IBCLD3B{background-position:-1760px bottom}
+.IBCLD0L{background-position:-1792px top}
+ .IBCLD0LM{background-position:-1792px center}
+ .IBCLD0LB{background-position:-1792px bottom}
+.IBCLD1L{background-position:-1824px top}
+ .IBCLD1LM{background-position:-1824px center}
+ .IBCLD1LB{background-position:-1824px bottom}
+.IBCLD2L{background-position:-1856px top}
+ .IBCLD2LM{background-position:-1856px center}
+ .IBCLD2LB{background-position:-1856px bottom}
+.IBCLD3L{background-position:-1888px top}
+ .IBCLD3LM{background-position:-1888px center}
+ .IBCLD3LB{background-position:-1888px bottom}
+.IBCLD4{background-position:-1920px top}
+ .IBCLD4M{background-position:-1920px center}
+ .IBCLD4B{background-position:-1920px bottom}
+.IBCLD4L{background-position:-1952px top}
+ .IBCLD4LM{background-position:-1952px center}
+ .IBCLD4LB{background-position:-1952px bottom}
+.IBCLNC,.IBCLNE,.IBCLND0,.IBCLND1,.IBCLND2,.IBCLND3,.IBCLND4,.IBCLNIcon{background-repeat:no-repeat;vertical-align:top;background-position:right top}
+.IBCLNCR,.IBCLNER,.IBCLND0R,.IBCLND1R,.IBCLND2R,.IBCLND3R,.IBCLND4R{background-repeat:no-repeat;vertical-align:top;background-position:left top}
+.IBCLNTreeImage{display:inline-block;height:17px;width:17px}
+.IBCLNWidth{width:21px}
+.IBCLND0,.IBCLND0R{background-image:url(./imgs/TreeNDrag0.gif?v120)}
+.IBCLND1,.IBCLND1R{background-image:url(./imgs/TreeNDrag1.gif?v120)}
+.IBCLND2,.IBCLND2R{background-image:url(./imgs/TreeNDrag2.gif?v120)}
+.IBCLND3,.IBCLND3R{background-image:url(./imgs/TreeNDrag3.gif?v120)}
+.IBCLND4,.IBCLND4R{background-image:url(./imgs/TreeNWait.gif?v120)}
+.IBCLNC,.IBCLNCR{background-image:url(./imgs/TreeNCollapse.gif?v120)}
+.IBCLNE,.IBCLNER{background-image:url(./imgs/TreeNExpand.gif?v120)}
+.IBCLFilter0,.IBCLFilter1,.IBCLGroup0,.IBCLGroup1,.IBCLSearch0,.IBCLSearch1{background-image:url(./imgs/BoolSpace.gif?v120);background-repeat:no-repeat;display:inline-block;width:17px;height:21px}
+.IBCLFilter0,.IBCLFilter1{height:18px}
+.IBCLFilter0{background-position:right -2px}
+.IBCLFilter1{background-position:right -252px}
+.IBCLGroup0{background-position:center 0px}
+.IBCLGroup1{background-position:center -250px}
+.IBCLSearch0{background-position:center 0px}
+.IBCLSearch1{background-position:center -250px}
+.IBCLPSpace1{width:17px;text-align:center}
+.IBCLPSpace2{width:33px;text-align:center}
+.IBCLPSpace3{width:49px;text-align:center}
+.IBCLPSpace4{width:65px;text-align:center}
+.IBCLTabHtml,.IBCLTabHtml1,.IBCLTabHtmlIcon,.IBCLTabHtmlIcon1{font-weight:bold;text-align:center;padding-left:5px;padding-right:5px;background:#FFF}
+.IBCLTabHtml1,.IBCLTabHtmlIcon1{background-position:left -1500px;color:white}
+.IBCLTabSep,.IBCLTabSepLeft,.IBCLTabSepRight{padding-left:3px;padding-right:0px;background:white!important;border:0px none;border-left:1px solid #9cb6c8;border-right:1px solid #9cb6c8;cursor:default!important;}
+.IBCLTabSepRight,.IBCLTabSepLeft{padding-left:5px}
+.IBCLTabSepLast{padding-left:1px;background:white!important;border:none;border-left:1px solid #9cb6c8;cursor:default!important}
+.IBCLTabSepFirst{padding-left:1px;background:white!important;border:none;border-right:1px solid #9cb6c8;cursor:default!important}
+.IBCLTabSepNoBack{background:none!important}
+.IBCLToolButton{text-align:center;padding:0px 1px 0px 1px}
+button.IBCLToolButtonButton,button.IBCLToolButtonButton1{font:10px/11px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:17px;padding:0px;cursor:pointer;white-space:nowrap}
+button.IBCLToolSpaceButton,button.IBCLToolSpaceButton1{font:11px/12px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:21px;padding:0px;cursor:pointer;white-space:nowrap}
+button.IBCLToolButtonButton1,button.IBCLToolSpaceButton1{color:blue;font-weight:bold}
+u.IBCLToolButtonButton,u.IBCLToolButtonButton1,u.IBCLToolSpaceButton,u.IBCLToolSpaceButton1{background:#fff;border:solid 1px #6c6c6e;color:#222222;cursor:pointer;text-decoration:none;display:block;overflow:hidden;white-space:nowrap;}
+u.IBCLToolButtonButton,u.IBCLToolButtonButton1{font:13px Arial,Helvetica,sans-serif;padding:3px 3px 2px 3px;margin:0.5rem 0.2rem}
+u.IBCLToolSpaceButton,u.IBCLToolSpaceButton1{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding:4px 3px 4px 3px;margin:2px 0px 2px 0px}
+.IBCLAlignCenter>u.IBCLToolButtonButton,.IBCLAlignCenter>u.IBCLToolButtonButton1{margin:4px auto 4px auto}
+.IBCLAlignRight>u.IBCLToolButtonButton,.IBCLAlignRight>u.IBCLToolButtonButton1{margin:4px 3px 4px auto}
+u.IBCLToolButtonButton1,u.IBCLToolSpaceButton1{color:#222222;background:#FFF}
+u.IBCLToolButtonIcon{padding-top:0px;padding-bottom:0px}
+ .IBCLToolButtonIconInner{padding-top:1px;padding-bottom:0px;display:inline-block;font-style:normal}
+u.IBCLToolSpaceIcon{padding-top:0px;padding-bottom:0px}
+ .IBCLToolSpaceIconInner{padding-top:1px;padding-bottom:1px;display:inline-block;font-style:normal}
+.IBCLToolButtonEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCLToolSpaceEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCLToolButtonButtonAuto,.IBCLToolSpaceButtonAuto{padding-left:3px;padding-right:3px}
+.IBCLToolHtml,.IBCLToolHtml1{padding-left:3px;padding-right:3px;text-align:center}
+.IBCLToolHtml1{font-weight:bold;color:blue}
+.IBCLToolHtmlIcon,.IBCLToolHtmlIcon1{text-align:center}
+.IBCLToolHtmlIconLeft{text-align:left}
+.IBCLToolHtmlIconRight{text-align:right}
+.IBCLToolHtmlEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCLToolHtmlEmptyIE{overflow:hidden;display:inline-block}
+.IBCLDisabledButton{opacity:0.3;filter:alpha(opacity=30)}
+.IBCLPopupLeft,.IBCLPopupRight{background-image:url(./imgs/Menu.gif?v120);background-repeat:no-repeat}
+.IBCLPopupLeft{background-position:-6px -248px;padding-left:14px}
+.IBCLPopupRight{background-position:right -248px;padding-right:14px}
+.IBCLPopupNone{padding-right:14px}
+.IBCLToolAlignSingle{padding-left:24px;padding-right:0px}
+.IBCLToolAlignSingle.IBCLHasLine{padding-left:0px}
+.IBCLToolAlignLeft{padding-left:22px;padding-right:8px}
+.IBCLToolAlignRight{padding-left:8px;padding-right:22px}
+.IBCLToolAlignTop{padding:22px 5px 3px 5px}
+.IBCLToolAlignBottom{padding:5px 5px 24px 5px}
+.IBCLToolLineAlignSingle{margin:14px 19px -18px 0px;height:0px;width:21px}
+.IBCLToolLineAlignLeft{margin:14px 3px -18px -20px;height:0px}
+.IBCLToolLineAlignRight{margin:14px -23px -18px -2px;height:0px}
+.IBCLToolLineAlignTop{margin:-3px auto -1px auto;height:0px}
+.IBCLToolLineAlignBottom{margin:34px auto -38px auto;height:0px}
+.IBCLToolLine{border-bottom:4px solid;padding-top:0px}
+.IBCLToolLineEmpty{border-bottom:1px solid #D4D4D4!important;padding-top:2px}
+.IBCLToolLine0{border-bottom:0px none;padding-top:3px}
+.IBCLToolLine1{border-bottom:1px solid;padding-top:2px}
+.IBCLToolLine2{border-bottom:2px solid;padding-top:2px}
+.IBCLToolLine3{border-bottom:3px solid;padding-top:1px}
+.IBCLToolLine4{border-bottom:1px dotted;padding-top:2px}
+.IBCLToolLine5{border-bottom:2px dotted;padding-top:2px}
+.IBCLToolLine6{border-bottom:1px dashed;padding-top:2px}
+.IBCLToolLine7{border-bottom:2px dashed;padding-top:2px}
+.IBCLToolSave,.IBCLToolReload,.IBCLToolRepaint,.IBCLToolRepaint1,.IBCLToolPrint,.IBCLToolExportPDF,.IBCLToolExport,.IBCLToolImport,.IBCLToolUndo,.IBCLToolUndo1,.IBCLToolRedo,.IBCLToolRedo1,.IBCLToolAdd,.IBCLToolAddChild,.IBCLToolAddCol,.IBCLToolJoin,.IBCLToolSplit,.IBCLToolOutdent,.IBCLToolIndent,.IBCLToolSort,.IBCLToolSort1,.IBCLToolCalc,.IBCLToolCalc1,.IBCLToolExpandAll,.IBCLToolCollapseAll,.IBCLToolColumns,.IBCLToolCfg,.IBCLToolHelp,.IBCLToolDebug,.IBCLResizeSheet,.IBCLResizeSheetRtl{background-image:url(./imgs/Toolbar.png?v120);-background-image:url(./imgs/Toolbar.gif?v120);background-repeat:no-repeat;}
+.IBCLToolSave{background-position:center 0px}
+ .IBCLToolSaveLeft{background-position:left 0px}
+ .IBCLToolSaveRight{background-position:right 0px}
+ .IBCLToolSaveBottom{background-position:center 20px}
+.IBCLToolReload{background-position:center -100px}
+ .IBCLToolReloadLeft{background-position:left -100px}
+ .IBCLToolReloadRight{background-position:right -100px}
+ .IBCLToolReloadBottom{background-position:center -80px}
+.IBCLToolRepaint{background-position:center -200px}
+ .IBCLToolRepaintLeft{background-position:left -200px}
+ .IBCLToolRepaintRight{background-position:right -200px}
+ .IBCLToolRepaintBottom{background-position:center -180px}
+.IBCLToolRepaint1{background-position:center -300px}
+ .IBCLToolRepaintLeft1{background-position:left -300px}
+ .IBCLToolRepaintRight1{background-position:right -300px}
+ .IBCLToolRepaintBottom1{background-position:center -280px}
+.IBCLToolPrint{background-position:center -400px}
+ .IBCLToolPrintLeft{background-position:left -400px}
+ .IBCLToolPrintRight{background-position:right -400px}
+ .IBCLToolPrintBottom{background-position:center -380px}
+.IBCLToolExportPDF{background-position:center -500px}
+ .IBCLToolExportPDFLeft{background-position:left -500px}
+ .IBCLToolExportPDFRight{background-position:right -500px}
+ .IBCLToolExportPDFBottom{background-position:center -480px}
+.IBCLToolExport{background-position:center -600px}
+ .IBCLToolExportLeft{background-position:left -600px}
+ .IBCLToolExportRight{background-position:right -600px}
+ .IBCLToolExportBottom{background-position:center -580px}
+.IBCLToolImport{background-position:center -3000px}
+ .IBCLToolImportLeft{background-position:left -3000px}
+ .IBCLToolImportRight{background-position:right -3000px}
+ .IBCLToolImportBottom{background-position:center -2980px}
+.IBCLToolUndo{background-position:center -700px}
+ .IBCLToolUndoLeft{background-position:left -700px}
+ .IBCLToolUndoRight{background-position:right -700px}
+ .IBCLToolUndoBottom{background-position:center -680px}
+.IBCLToolUndo1{background-position:center -800px}
+ .IBCLToolUndoLeft1{background-position:left -800px}
+ .IBCLToolUndoRight1{background-position:right -800px}
+ .IBCLToolUndoBottom1{background-position:center -780px}
+.IBCLToolRedo{background-position:center -900px}
+ .IBCLToolRedoLeft{background-position:left -900px}
+ .IBCLToolRedoRight{background-position:right -900px}
+ .IBCLToolRedoBottom{background-position:center -880px}
+.IBCLToolRedo1{background-position:center -1000px}
+ .IBCLToolRedoLeft1{background-position:left -1000px}
+ .IBCLToolRedoRight1{background-position:right -1000px}
+ .IBCLToolRedoBottom1{background-position:center -980px}
+.IBCLToolAdd{background-position:center -1100px}
+ .IBCLToolAddLeft{background-position:left -1100px}
+ .IBCLToolAddRight{background-position:right -1100px}
+ .IBCLToolAddBottom{background-position:center -1080px}
+.IBCLToolAddChild{background-position:center -1200px}
+ .IBCLToolAddChildLeft{background-position:left -1200px}
+ .IBCLToolAddChildRight{background-position:right -1200px}
+ .IBCLToolAddChildBottom{background-position:center -1180px}
+.IBCLToolAddCol{background-position:center -2900px}
+ .IBCLToolAddColLeft{background-position:left -2900px}
+ .IBCLToolAddColRight{background-position:right -2900px}
+ .IBCLToolAddColBottom{background-position:center -2880px}
+.IBCLToolJoin{background-position:center -1300px}
+ .IBCLToolJoinLeft{background-position:left -1300px}
+ .IBCLToolJoinRight{background-position:right -1300px}
+ .IBCLToolJoinBottom{background-position:center -1280px}
+.IBCLToolSplit{background-position:center -1400px}
+ .IBCLToolSplitLeft{background-position:left -1400px}
+ .IBCLToolSplitRight{background-position:right -1400px}
+ .IBCLToolSplitBottom{background-position:center -1380px}
+.IBCLToolOutdent{background-position:center -1500px}
+ .IBCLToolOutdentLeft{background-position:left -1500px}
+ .IBCLToolOutdentRight{background-position:right -1500px}
+ .IBCLToolOutdentBottom{background-position:center -1480px}
+.IBCLToolIndent{background-position:center -1600px}
+ .IBCLToolIndentLeft{background-position:left -1600px}
+ .IBCLToolIndentRight{background-position:right -1600px}
+ .IBCLToolIndentBottom{background-position:center -1580px}
+.IBCLToolSort{background-position:center -1700px}
+ .IBCLToolSortLeft{background-position:left -1700px}
+ .IBCLToolSortRight{background-position:right -1700px}
+ .IBCLToolSortBottom{background-position:center -1680px}
+.IBCLToolSort1{background-position:center -1800px}
+ .IBCLToolSortLeft1{background-position:left -1800px}
+ .IBCLToolSortRight1{background-position:right -1800px}
+ .IBCLToolSortBottom1{background-position:center -1780px}
+.IBCLToolCalc{background-position:center -1900px}
+ .IBCLToolCalcLeft{background-position:left -1900px}
+ .IBCLToolCalcRight{background-position:right -1900px}
+ .IBCLToolCalcBottom{background-position:center -1880px}
+.IBCLToolCalc1{background-position:center -2000px}
+ .IBCLToolCalcLeft1{background-position:left -2000px}
+ .IBCLToolCalcRight1{background-position:right -2000px}
+ .IBCLToolCalcBottom1{background-position:center -1980px}
+.IBCLToolExpandAll{background-position:center -2100px}
+ .IBCLToolExpandAllLeft{background-position:left -2100px}
+ .IBCLToolExpandAllRight{background-position:right -2100px}
+ .IBCLToolExpandAllBottom{background-position:center -2080px}
+.IBCLToolCollapseAll{background-position:center -2200px}
+ .IBCLToolCollapseAllLeft{background-position:left -2200px}
+ .IBCLToolCollapseAllRight{background-position:right -2200px}
+ .IBCLToolCollapseAllBottom{background-position:center -2180px}
+.IBCLToolColumns{background-position:center -2300px}
+ .IBCLToolColumnsLeft{background-position:left -2300px}
+ .IBCLToolColumnsRight{background-position:right -2300px}
+ .IBCLToolColumnsBottom{background-position:center -2280px}
+.IBCLToolCfg{background-position:center -2400px}
+ .IBCLToolCfgLeft{background-position:left -2400px}
+ .IBCLToolCfgRight{background-position:right -2400px}
+ .IBCLToolCfgBottom{background-position:center -2380px}
+.IBCLToolHelp{background-position:center -2500px}
+ .IBCLToolHelpLeft{background-position:left -2500px}
+ .IBCLToolHelpRight{background-position:right -2500px}
+ .IBCLToolHelpBottom{background-position:center -2480px}
+.IBCLToolDebug{background-position:center -2600px}
+ .IBCLToolDebugLeft{background-position:left -2600px}
+ .IBCLToolDebugRight{background-position:right -2600px}
+ .IBCLToolDebugBottom{background-position:center -2580px}
+.IBCLResizeSheet{background-position:center -2700px}
+ .IBCLResizeSheetLeft{background-position:left -2700px}
+ .IBCLResizeSheetRight{background-position:right -2700px}
+ .IBCLResizeSheetBottom{background-position:center -2680px}
+.IBCLResizeSheetRtl{background-position:center -2800px}
+ .IBCLResizeSheetRtlLeft{background-position:left -2800px}
+ .IBCLResizeSheetRtlRight{background-position:right -2800px}
+ .IBCLResizeSheetRtlBottom{background-position:center -2780px}
+.IBCLToolPagerFirst,.IBCLToolPagerFirst1,.IBCLToolPagerPrev,.IBCLToolPagerPrev1,.IBCLToolPagerNext,.IBCLToolPagerNext1,.IBCLToolPagerLast,.IBCLToolPagerLast1{background-image:url(./imgs/Pager.png?v120);-background-image:url(./imgs/Pager.gif?v120);background-repeat:no-repeat;}
+.IBCLToolPagerFirst{background-position:center 0px}
+ .IBCLToolPagerFirstLeft{background-position:left 0px}
+ .IBCLToolPagerFirstRight{background-position:right 0px}
+ .IBCLToolPagerFirstBottom{background-position:center 20px}
+.IBCLToolPagerFirst1{background-position:center -100px}
+ .IBCLToolPagerFirstLeft1{background-position:left -100px}
+ .IBCLToolPagerFirstRight1{background-position:right -100px}
+ .IBCLToolPagerFirstBottom1{background-position:center -80px}
+.IBCLToolPagerPrev{background-position:center -200px}
+ .IBCLToolPagerPrevLeft{background-position:left -200px}
+ .IBCLToolPagerPrevRight{background-position:right -200px}
+ .IBCLToolPagerPrevBottom{background-position:center -180px}
+.IBCLToolPagerPrev1{background-position:center -300px}
+ .IBCLToolPagerPrevLeft1{background-position:left -300px}
+ .IBCLToolPagerPrevRight1{background-position:right -300px}
+ .IBCLToolPagerPrevBottom1{background-position:center -280px}
+.IBCLToolPagerNext{background-position:center -400px}
+ .IBCLToolPagerNextLeft{background-position:left -400px}
+ .IBCLToolPagerNextRight{background-position:right -400px}
+ .IBCLToolPagerNextBottom{background-position:center -380px}
+.IBCLToolPagerNext1{background-position:center -500px}
+ .IBCLToolPagerNextLeft1{background-position:left -500px}
+ .IBCLToolPagerNextRight1{background-position:right -500px}
+ .IBCLToolPagerNextBottom1{background-position:center -480px}
+.IBCLToolPagerLast{background-position:center -600px}
+ .IBCLToolPagerLastLeft{background-position:left -600px}
+ .IBCLToolPagerLastRight{background-position:right -600px}
+ .IBCLToolPagerLastBottom{background-position:center -580px}
+.IBCLToolPagerLast1{background-position:center -700px}
+ .IBCLToolPagerLastLeft1{background-position:left -700px}
+ .IBCLToolPagerLastRight1{background-position:right -700px}
+ .IBCLToolPagerLastBottom1{background-position:center -680px}
+.IBCLToolCorrect{background-position:center 0px}
+ .IBCLToolCorrectLeft{background-position:left 0px}
+ .IBCLToolCorrectRight{background-position:right 0px}
+ .IBCLToolCorrectBottom{background-position:center 20px}
+.IBCLToolCorrect1{background-position:center -100px}
+ .IBCLToolCorrectLeft1{background-position:left -100px}
+ .IBCLToolCorrectRight1{background-position:right -100px}
+ .IBCLToolCorrectBottom1{background-position:center -80px}
+.IBCLToolZoomIn{background-position:center -200px}
+ .IBCLToolZoomInLeft{background-position:left -200px}
+ .IBCLToolZoomInRight{background-position:right -200px}
+ .IBCLToolZoomInBottom{background-position:center -180px}
+.IBCLToolZoomIn1{background-position:center -300px}
+ .IBCLToolZoomInLeft1{background-position:left -300px}
+ .IBCLToolZoomInRight1{background-position:right -300px}
+ .IBCLToolZoomInBottom1{background-position:center -280px}
+.IBCLToolZoomOut{background-position:center -400px}
+ .IBCLToolZoomOutLeft{background-position:left -400px}
+ .IBCLToolZoomOutRight{background-position:right -400px}
+ .IBCLToolZoomOutBottom{background-position:center -380px}
+.IBCLToolZoomOut1{background-position:center -500px}
+ .IBCLToolZoomOutLeft1{background-position:left -500px}
+ .IBCLToolZoomOutRight1{background-position:right -500px}
+ .IBCLToolZoomOutBottom1{background-position:center -480px}
+.IBCLToolZoomFit{background-position:center -600px}
+ .IBCLToolZoomFitLeft{background-position:left -600px}
+ .IBCLToolZoomFitRight{background-position:right -600px}
+ .IBCLToolZoomFitBottom{background-position:center -580px}
+.IBCLToolLeft,.IBCLToolCenter,.IBCLToolRight,.IBCLToolTop,.IBCLToolMiddle,.IBCLToolBottom,.IBCLToolBold,.IBCLToolItalic,.IBCLToolUnderline,.IBCLToolStrike,.IBCLToolRotateLeft,.IBCLToolRotateRight,.IBCLToolWrapText{background-image:url(./imgs/ToolbarSheet.png?v120);-background-image:url(./imgs/ToolbarSheet.gif?v120);background-repeat:no-repeat;}
+.IBCLToolLeft1,.IBCLToolCenter1,.IBCLToolRight1,.IBCLToolTop1,.IBCLToolMiddle1,.IBCLToolBottom1,.IBCLToolBold1,.IBCLToolItalic1,.IBCLToolUnderline1,.IBCLToolStrike1,.IBCLToolRotateLeft1,.IBCLToolRotateRight1,.IBCLToolWrapText1{background-image:url(./imgs/ToolbarSheet.png?v120);-background-image:url(./imgs/ToolbarSheet.gif?v120);background-repeat:no-repeat;background-color:#8DB4FF;}
+.IBCLToolLeft,.IBCLToolLeft1{background-position:center 0px}
+ .IBCLToolLeftLeft,.IBCLToolLeftLeft1{background-position:left 0px}
+ .IBCLToolLeftRight,.IBCLToolLeftRight1{background-position:right 0px}
+ .IBCLToolLeftBottom,.IBCLToolLeftBottom1{background-position:center 20px}
+.IBCLToolCenter,.IBCLToolCenter1{background-position:center -100px}
+ .IBCLToolCenterLeft,.IBCLToolCenterLeft1{background-position:left -100px}
+ .IBCLToolCenterRight,.IBCLToolCenterRight1{background-position:right -100px}
+ .IBCLToolCenterBottom,.IBCLToolCenterBottom1{background-position:center -80px}
+.IBCLToolRight,.IBCLToolRight1{background-position:center -200px}
+ .IBCLToolRightLeft,.IBCLToolRightLeft1{background-position:left -200px}
+ .IBCLToolRightRight,.IBCLToolRightRight1{background-position:right -200px}
+ .IBCLToolRightBottom,.IBCLToolRightBottom1{background-position:center -180px}
+.IBCLToolTop,.IBCLToolTop1{background-position:center -300px}
+ .IBCLToolTopLeft,.IBCLToolTopLeft1{background-position:left -300px}
+ .IBCLToolTopRight,.IBCLToolTopRight1{background-position:right -300px}
+ .IBCLToolTopBottom,.IBCLToolTopBottom1{background-position:center -280px}
+.IBCLToolMiddle,.IBCLToolMiddle1{background-position:center -400px}
+ .IBCLToolMiddleLeft,.IBCLToolMiddleLeft1{background-position:left -400px}
+ .IBCLToolMiddleRight,.IBCLToolMiddleRight1{background-position:right -400px}
+ .IBCLToolMiddleBottom,.IBCLToolMiddleBottom1{background-position:center -380px}
+.IBCLToolBottom,.IBCLToolBottom1{background-position:center -500px}
+ .IBCLToolBottomLeft,.IBCLToolBottomLeft1{background-position:left -500px}
+ .IBCLToolBottomRight,.IBCLToolBottomRight1{background-position:right -500px}
+ .IBCLToolBottomBottom,.IBCLToolBottomBottom1{background-position:center -480px}
+.IBCLToolBold,.IBCLToolBold1{background-position:center -600px}
+ .IBCLToolBoldLeft,.IBCLToolBoldLeft1{background-position:left -600px}
+ .IBCLToolBoldRight,.IBCLToolBoldRight1{background-position:right -600px}
+ .IBCLToolBoldBottom,.IBCLToolBoldBottom1{background-position:center -580px}
+.IBCLToolItalic,.IBCLToolItalic1{background-position:center -700px}
+ .IBCLToolItalicLeft,.IBCLToolItalicLeft1{background-position:left -700px}
+ .IBCLToolItalicRight,.IBCLToolItalicRight1{background-position:right -700px}
+ .IBCLToolItalicBottom,.IBCLToolItalicBottom1{background-position:center -680px}
+.IBCLToolUnderline,.IBCLToolUnderline1{background-position:center -800px}
+ .IBCLToolUnderlineLeft,.IBCLToolUnderlineLeft1{background-position:left -800px}
+ .IBCLToolUnderlineRight,.IBCLToolUnderlineRight1{background-position:right -800px}
+ .IBCLToolUnderlineBottom,.IBCLToolUnderlineBottom1{background-position:center -780px}
+.IBCLToolStrike,.IBCLToolStrike1{background-position:center -900px}
+ .IBCLToolStrikeLeft,.IBCLToolStrikeLeft1{background-position:left -900px}
+ .IBCLToolStrikeRight,.IBCLToolStrikeRight1{background-position:right -900px}
+ .IBCLToolStrikeBottom,.IBCLToolStrikeBottom1{background-position:center -880px}
+.IBCLToolRotateLeft,.IBCLToolRotateLeft1{background-position:center -1000px}
+ .IBCLToolRotateLeftLeft,.IBCLToolRotateLeftLeft1{background-position:left -1000px}
+ .IBCLToolRotateLeftRight,.IBCLToolRotateLeftRight{background-position:right -1000px}
+ .IBCLToolRotateLeftBottom,.IBCLToolRotateLeftBottom1{background-position:center -980px}
+.IBCLToolRotateRight,.IBCLToolRotateRight1{background-position:center -1100px}
+ .IBCLToolRotateRightLeft,.IBCLToolRotateRightLeft1{background-position:left -1100px}
+ .IBCLToolRotateRightRight,.IBCLToolRotateRightRight1{background-position:right -1100px}
+ .IBCLToolRotateRightBottom,.IBCLToolRotateRightBottom1{background-position:center -1080px}
+.IBCLToolWrapText,.IBCLToolWrapText1{background-position:center -1200px}
+ .IBCLToolWrapTextLeft,.IBCLToolWrapTextLeft1{background-position:left -1200px}
+ .IBCLToolWrapTextRight,.IBCLToolWrapTextRight{background-position:right -1200px}
+ .IBCLToolWrapTextBottom.IBCLToolWrapTextBottom1{background-position:center -1180px}
+.IBCLToolColorText,.IBCLToolColorBackground,.IBCLToolBorder,.IBCLToolBorderAll,.IBCLToolBorderI3,.IBCLToolBorderI2,.IBCLToolBorderI1,.IBCLToolBorderO15,.IBCLToolBorderO1,.IBCLToolBorderO2,.IBCLToolBorderO4,.IBCLToolBorderO8,.IBCLToolBorderO5,.IBCLToolBorderO10,.IBCLToolColorShadow{background-image:url(./imgs/ToolbarSheetWide.png?v120);-background-image:url(./imgs/ToolbarSheetWide.gif?v120);background-repeat:no-repeat;}
+.IBCLToolColorText{background-position:center 0px}
+ .IBCLToolColorTextLeft{background-position:left 0px}
+ .IBCLToolColorTextRight{background-position:right 0px}
+ .IBCLToolColorTextBottom{background-position:center 20px}
+.IBCLToolColorBackground{background-position:center -100px}
+ .IBCLToolColorBackgroundLeft{background-position:left -100px}
+ .IBCLToolColorBackgroundRight{background-position:right -100px}
+ .IBCLToolColorBackgroundBottom{background-position:center -80px}
+.IBCLToolBorder{background-position:center -200px}
+ .IBCLToolBorderLeft{background-position:left -200px}
+ .IBCLToolBorderRight{background-position:right -200px}
+ .IBCLToolBorderBottom{background-position:center -180px}
+.IBCLToolBorderAll{background-position:center -300px}
+ .IBCLToolBorderAllLeft{background-position:left -300px}
+ .IBCLToolBorderAllRight{background-position:right -300px}
+ .IBCLToolBorderAllBottom{background-position:center -280px}
+.IBCLToolBorderO15{background-position:center -400px}
+ .IBCLToolBorderO15Left{background-position:left -400px}
+ .IBCLToolBorderO15Right{background-position:right -400px}
+ .IBCLToolBorderO15Bottom{background-position:center -380px}
+.IBCLToolBorderI3{background-position:center -500px}
+ .IBCLToolBorderI3Left{background-position:left -500px}
+ .IBCLToolBorderI3Right{background-position:right -500px}
+ .IBCLToolBorderI3Bottom{background-position:center -480px}
+.IBCLToolBorderI2{background-position:center -600px}
+ .IBCLToolBorderI2Left{background-position:left -600px}
+ .IBCLToolBorderI2Right{background-position:right -600px}
+ .IBCLToolBorderI2Bottom{background-position:center -580px}
+.IBCLToolBorderI1{background-position:center -700px}
+ .IBCLToolBorderI1Left{background-position:left -700px}
+ .IBCLToolBorderI1Right{background-position:right -700px}
+ .IBCLToolBorderI1Bottom{background-position:center -680px}
+.IBCLToolBorderO1{background-position:center -800px}
+ .IBCLToolBorderO1Left{background-position:left -800px}
+ .IBCLToolBorderO1Right{background-position:right -800px}
+ .IBCLToolBorderO1Bottom{background-position:center -780px}
+.IBCLToolBorderO2{background-position:center -900px}
+ .IBCLToolBorderO2Left{background-position:left -900px}
+ .IBCLToolBorderO2Right{background-position:right -900px}
+ .IBCLToolBorderO2Bottom{background-position:center -880px}
+.IBCLToolBorderO4{background-position:center -1000px}
+ .IBCLToolBorderO4Left{background-position:left -1000px}
+ .IBCLToolBorderO4Right{background-position:right -1000px}
+ .IBCLToolBorderO4Bottom{background-position:center -980px}
+.IBCLToolBorderO8{background-position:center -1100px}
+ .IBCLToolBorderO8Left{background-position:left -1100px}
+ .IBCLToolBorderO8Right{background-position:right -1100px}
+ .IBCLToolBorderO8Bottom{background-position:center -1080px}
+.IBCLToolBorderO5{background-position:center -1200px}
+ .IBCLToolBorderO5Left{background-position:left -1200px}
+ .IBCLToolBorderO5Right{background-position:right -1200px}
+ .IBCLToolBorderO5Bottom{background-position:center -1180px}
+.IBCLToolBorderO10{background-position:center -1300px}
+ .IBCLToolBorderO10Left{background-position:left -1300px}
+ .IBCLToolBorderO10Right{background-position:right -1300px}
+ .IBCLToolBorderO10Bottom{background-position:center -1280px}
+.IBCLToolColorShadow{background-position:center -1400px}
+.IBCLToolColorShadowLeft{background-position:left -1400px}
+ .IBCLToolColorShadowRight{background-position:right -1400px}
+ .IBCLToolColorShadowBottom{background-position:center -1380px}
+.IBCLToolResize{visibility:hidden}
+.IBCLToolImage{display:inline-block;width:24px;height:21px;padding:0px;overflow:hidden}
+.IBCLToolImageLeftText,.IBCLToolImageRightText,.IBCLToolImageTopText,.IBCLToolImageBottomText{display:inline-block;text-decoration:none}
+.IBCLToolImageLeftText{padding-top:5px;padding-bottom:3px}
+.IBCLToolImageRightText{padding-top:5px;padding-bottom:3px}
+.IBCLToolImageTopText{height:13px}
+.IBCLToolImageBottomText{height:13px;padding-top:5px;padding-bottom:24px}
+.IBCLToolIconSingle{background-position:center center}
+.IBCLToolIconLeft{background-position:left center}
+.IBCLToolIconRight{background-position:right center}
+.IBCLToolIconTop{background-position:center top}
+.IBCLToolIconBottom{background-position:center bottom}
+.IBCLPagerEdit > div{text-align:center}
+.IBCLResizeSheet{background-position:-2px -2703px;margin:-19px 0px 0px auto;height:19px;width:19px;overflow:hidden;padding:0px;cursor:nw-resize;position:relative}
+.IBCLResizeSheetRtl{background-position:-2px -2803px;margin:-19px auto 0px 0px;height:19px;width:19px;overflow:hidden;padding:0px;cursor:ne-resize;position:relative}
+.IBCLFilter0Left,.IBCLFilter1Left,.IBCLFilter2Left,.IBCLFilter3Left,.IBCLFilter4Left,.IBCLFilter5Left,.IBCLFilter6Left,.IBCLFilter7Left,.IBCLFilter8Left,.IBCLFilter9Left,.IBCLFilter10Left,.IBCLFilter11Left,.IBCLFilter12Left{background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;padding-left:17px;}
+.IBCLFilter0Right,.IBCLFilter1Right,.IBCLFilter2Right,.IBCLFilter3Right,.IBCLFilter4Right,.IBCLFilter5Right,.IBCLFilter6Right,.IBCLFilter7Right,.IBCLFilter8Right,.IBCLFilter9Right,.IBCLFilter10Right,.IBCLFilter11Right,.IBCLFilter12Right{background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;padding-right:17px;}
+.IBCLFilter0Left,.IBCLFilter0Menu{background-position:left 0px}
+.IBCLFilter1Left,.IBCLFilter1Menu{background-position:left -150px}
+.IBCLFilter2Left,.IBCLFilter2Menu{background-position:left -300px}
+.IBCLFilter3Left,.IBCLFilter3Menu{background-position:left -450px}
+.IBCLFilter4Left,.IBCLFilter4Menu{background-position:left -600px}
+.IBCLFilter5Left,.IBCLFilter5Menu{background-position:left -750px}
+.IBCLFilter6Left,.IBCLFilter6Menu{background-position:left -900px}
+.IBCLFilter7Left,.IBCLFilter7Menu{background-position:left -1050px}
+.IBCLFilter8Left,.IBCLFilter8Menu{background-position:left -1200px}
+.IBCLFilter9Left,.IBCLFilter9Menu{background-position:left -1350px}
+.IBCLFilter10Left,.IBCLFilter10Menu{background-position:left -1500px}
+.IBCLFilter11Left,.IBCLFilter11Menu{background-position:left -1650px}
+.IBCLFilter12Left,.IBCLFilter12Menu{background-position:left -1800px}
+.IBCLFilter0Right{background-position:right 0px}
+.IBCLFilter1Right{background-position:right -150px}
+.IBCLFilter2Right{background-position:right -300px}
+.IBCLFilter3Right{background-position:right -450px}
+.IBCLFilter4Right{background-position:right -600px}
+.IBCLFilter5Right{background-position:right -750px}
+.IBCLFilter6Right{background-position:right -900px}
+.IBCLFilter7Right{background-position:right -1050px}
+.IBCLFilter8Right{background-position:right -1200px}
+.IBCLFilter9Right{background-position:right -1350px}
+.IBCLFilter10Right{background-position:right -1500px}
+.IBCLFilter11Right{background-position:right -1650px}
+.IBCLFilter12Right{background-position:right -1800px}
+.IBCLFilter0Menu,.IBCLFilter1Menu,.IBCLFilter2Menu,.IBCLFilter3Menu,.IBCLFilter4Menu,.IBCLFilter5Menu,.IBCLFilter6Menu,.IBCLFilter7Menu,.IBCLFilter8Menu,.IBCLFilter9Menu,.IBCLFilter10Menu,.IBCLFilter11Menu,.IBCLFilter12Menu{width:17px;height:17px;overflow:hidden;background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;margin-left:-1px;}
+.IBCLFilter0Value{color:silver}
+.IBCLFilter1Value,.IBCLFilter2Value,.IBCLFilter3Value,.IBCLFilter4Value,.IBCLFilter5Value,.IBCLFilter6Value,.IBCLFilter7Value,.IBCLFilter8Value,.IBCLFilter9Value,.IBCLFilter10Value,.IBCLFilter11Value,.IBCLFilter12Value{color:blue}
+.IBCLSort0Left,.IBCLSort1Left,.IBCLSort2Left,.IBCLSort3Left,.IBCLSort4Left,.IBCLSort5Left,.IBCLSort6Left,.IBCLSort0Right,.IBCLSort1Right,.IBCLSort2Right,.IBCLSort3Right,.IBCLSort4Right,.IBCLSort5Right,.IBCLSort6Right{background-image:url(./imgs/Sort.gif?v120);background-repeat:no-repeat;}
+.IBCLSort0Left,.IBCLSort1Left,.IBCLSort2Left,.IBCLSort3Left,.IBCLSort4Left,.IBCLSort5Left,.IBCLSort6Left{padding-left:17px}
+.IBCLSort0Right,.IBCLSort1Right,.IBCLSort2Right,.IBCLSort3Right,.IBCLSort4Right,.IBCLSort5Right,.IBCLSort6Right{padding-right:17px}
+.IBCLSort0Left{background-position:left 0px}
+.IBCLSort1Left{background-position:left -250px}
+.IBCLSort2Left{background-position:left -500px}
+.IBCLSort3Left{background-position:left -750px}
+.IBCLSort4Left{background-position:left -1000px}
+.IBCLSort5Left{background-position:left -1250px}
+.IBCLSort6Left{background-position:left -1500px}
+.IBCLSort0Right{background-position:right 0px}
+.IBCLSort1Right{background-position:right -250px}
+.IBCLSort2Right{background-position:right -500px}
+.IBCLSort3Right{background-position:right -750px}
+.IBCLSort4Right{background-position:right -1000px}
+.IBCLSort5Right{background-position:right -1250px}
+.IBCLSort6Right{background-position:right -1500px}
+.IBCLDateLeft,.IBCLDatesLeft,.IBCLDefaultsLeft,.IBCLEnumLeft,.IBCLCollapseLeft,.IBCLExpandLeft,.IBCLFileLeft,.IBCLClearLeft{background-image:url(./imgs/Button.gif?v120);padding-left:17px;background-repeat:no-repeat}
+.IBCLDateRight,.IBCLDatesRight,.IBCLDefaultsRight,.IBCLEnumRight,.IBCLCollapseRight,.IBCLExpandRight,.IBCLFileRight,.IBCLClearRight{background-image:url(./imgs/Button.gif?v120);padding-right:17px;background-repeat:no-repeat}
+.IBCLDateTop,.IBCLDatesTop,.IBCLDefaultsTop,.IBCLEnumTop,.IBCLCollapseTop,.IBCLExpandTop,.IBCLFileTop,.IBCLClearTop{background-image:url(./imgs/Button.gif?v120);padding-top:20px;background-repeat:no-repeat}
+.IBCLDateBottom,.IBCLDatesBottom,.IBCLDefaultsBottom,.IBCLEnumBottom,.IBCLCollapseBottom,.IBCLExpandBottom,.IBCLFileBottom,.IBCLClearBottom{background-image:url(./imgs/Button.gif?v120);padding-bottom:20px;background-repeat:no-repeat}
+.IBCLDateLeft,.IBCLDatesLeft{background-position:left -250px;padding-left:20px}
+.IBCLDateRight,.IBCLDatesRight{background-position:right -250px;padding-right:20px}
+.IBCLDateTop,.IBCLDatesTop{background-position:center -250px}
+.IBCLDateBottom,.IBCLDatesBottom{background-position:center -230px}
+.IBCLDefaultsLeft{background-position:left 0px;padding-left:20px}
+.IBCLDefaultsRight{background-position:right 0px;padding-right:20px}
+.IBCLDefaultsTop{background-position:center 0px}
+.IBCLDefaultsBottom{background-position:center 20px}
+.IBCLEnumLeft{background-position:left -500px}
+.IBCLEnumRight{background-position:right -500px}
+.IBCLEnumTop{background-position:center -500px}
+.IBCLEnumBottom{background-position:center -480px}
+.IBCLExpandLeft{background-position:left -1000px}
+.IBCLExpandRight{background-position:right -1000px}
+.IBCLExpandTop{background-position:center -1000px}
+.IBCLExpandBottom{background-position:center -980px}
+.IBCLCollapseLeft{background-position:left -750px}
+.IBCLCollapseRight{background-position:right -750px}
+.IBCLCollapseTop{background-position:center -750px}
+.IBCLCollapseBottom{background-position:center -730px}
+.IBCLFileLeft{background-position:left -2000px;padding-left:20px}
+.IBCLFileRight{background-position:right -2000px;padding-right:20px}
+.IBCLFileTop{background-position:center -2000px}
+.IBCLFileBottom{background-position:center -1980px}
+.IBCLClearLeft{background-position:left -2250px}
+.IBCLClearRight{background-position:right -2250px}
+.IBCLClearTop{background-position:center -2250px}
+.IBCLClearBottom{background-position:center -1230px}
+.IBCLCheck0Left,.IBCLCheck1Left,.IBCLCheck2Left{background-image:url(./imgs/Bool.gif?v120);padding-left:17px;background-repeat:no-repeat}
+.IBCLCheck0Right,.IBCLCheck1Right,.IBCLCheck2Right{background-image:url(./imgs/Bool.gif?v120);padding-right:17px;background-repeat:no-repeat}
+.IBCLCheck0Top,.IBCLCheck1Top,.IBCLCheck2Top{background-image:url(./imgs/Bool.gif?v120);padding-top:20px;background-repeat:no-repeat}
+.IBCLCheck0Bottom,.IBCLCheck1Bottom,.IBCLCheck2Bottom{background-image:url(./imgs/Bool.gif?v120);padding-bottom:20px;background-repeat:no-repeat}
+.IBCLCheck0Left{background-position:left 0px}
+.IBCLCheck1Left{background-position:left -250px}
+.IBCLCheck2Left{background-position:left -500px}
+.IBCLCheck0Right{background-position:right 0px}
+.IBCLCheck1Right{background-position:right -250px}
+.IBCLCheck2Right{background-position:right -500px}
+.IBCLCheck0Top{background-position:center 0px}
+.IBCLCheck1Top{background-position:center -250px}
+.IBCLCheck2Top{background-position:center -500px}
+.IBCLCheck0Bottom{background-position:center 20px}
+.IBCLCheck1Bottom{background-position:center -230px}
+.IBCLCheck2Bottom{background-position:center -480px}
+.IBCLButtonImage{display:inline-block;height:17px;padding-left:0px;padding-right:0px}
+.IBCLIconLink{text-decoration:none;width:1000px;display:inline-block}
+.IBCLIconLeft{background-position:left 0px;padding-left:20px;background-repeat:no-repeat}
+.IBCLIconRight{background-position:right 0px;padding-right:20px;background-repeat:no-repeat}
+.IBCLIconCenter{background-position:center 0px;background-repeat:no-repeat}
+.IBCLIconTop{padding-top:20px;background-position:center 0px;background-repeat:no-repeat}
+.IBCLIconBottom{padding-bottom:21px;background-position:center 20px;background-repeat:no-repeat}
+.IBCLIconTopVAlignTop{padding-top:20px}
+.IBCLIconTopVAlignMiddle{padding-top:21px}
+.IBCLIconTopVAlignBottom{padding-top:22px}
+.IBCLIconBottomVAlignTop{padding-bottom:22px}
+.IBCLIconBottomVAlignMiddle{padding-bottom:21px}
+.IBCLIconBottomVAlignBottom{padding-bottom:21px}
+.IBCLRadio0Left,.IBCLRadio0Right,.IBCLRadio1Left,.IBCLRadio1Right,.IBCLRadio2Left,.IBCLRadio2Right,.IBCLRadio3Left,.IBCLRadio3Right,.IBCLRadioIconLeft,.IBCLRadioIconRight,.IBCLRadioNone{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;}
+.IBCLRadio0Left,.IBCLRadio1Left,.IBCLRadio2Left,.IBCLRadio3Left,.IBCLRadioIconLeft{padding-left:17px;padding-right:3px}
+.IBCLRadio0Right,.IBCLRadio1Right,.IBCLRadio2Right,.IBCLRadio3Right,.IBCLRadioIconRight{padding-right:17px;padding-left:3px}
+.IBCLRadio0Left{background-position:left -1500px}
+.IBCLRadio1Left{background-position:left -1750px}
+.IBCLRadio2Left{background-position:left 0px}
+.IBCLRadio3Left{background-position:left -250px}
+.IBCLRadio0Right{background-position:right -1500px}
+.IBCLRadio1Right{background-position:right -1750px}
+.IBCLRadio2Right{background-position:right 0px}
+.IBCLRadio3Right{background-position:right -250px}
+.IBCLRadioNone{background-image:none}
+.IBCLRadioIconLeft{background-position:left top}
+.IBCLRadioIconRight{background-position:right top}
+nobr.IBCLRadio0Left,nobr.IBCLRadio1Left,nobr.IBCLRadio2Left,nobr.IBCLRadio3Left,nobr.IBCLRadio0Right,nobr.IBCLRadio1Right,nobr.IBCLRadio2Right,nobr.IBCLRadio3Right,nobr.IBCLRadioIconLeft,nobr.IBCLRadioIconRight,span.IBCLRadio0Left,span.IBCLRadio1Left,span.IBCLRadio2Left,span.IBCLRadio3Left,span.IBCLRadio0Right,span.IBCLRadio1Right,span.IBCLRadio2Right,span.IBCLRadio3Right,span.IBCLRadioIconLeft,span.IBCLRadioIconRight{padding-top:2px;padding-bottom:2px;}
+.IBCLRadioCell{white-space:nowrap}
+.IBCLRadioInput{margin:1px 2px 0px 2px;padding:0px;margin-top:-4px!IE;line-height:13px}
+.IBCLRadioText{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+nobr.IBCLRadioCell,span.IBCLRadioCell{display:inline-block}
+.IBCLRadioChecked{color:blue}
+.IBCLBool0,.IBCLBool1,.IBCLBoolX,.IBCLBool0RO,.IBCLBool1RO,.IBCLBoolXRO,.IBCLBool2,.IBCLBool3,.IBCLBool2RO,.IBCLBool3RO{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;padding-left:17px}
+.IBCLBoolIcon{background-repeat:no-repeat}
+.IBCLBool0{background-position:center 0px}
+.IBCLBool1{background-position:center -250px}
+.IBCLBoolX{background-position:center -500px}
+.IBCLBool0RO{background-position:center -750px}
+.IBCLBool1RO{background-position:center -1000px}
+.IBCLBoolXRO{background-position:center -1250px}
+.IBCLBool2,.IBCLBool2RO{background-position:center -1500px}
+.IBCLBool3,.IBCLBool3RO{background-position:center -1750px}
+.IBCLBoolImage{display:inline-block;width:17px;height:17px;overflow:hidden;padding:0px}
+.IBCLBoolXSpace,.IBCLBool0Space,.IBCLBool1Space,.IBCLBoolXSpaceRO,.IBCLBool0SpaceRO,.IBCLBool1SpaceRO{background-image:url(./imgs/BoolSpace.gif?v120);background-repeat:no-repeat;padding-left:18px}
+.IBCLBool2Space,.IBCLBool3Space,.IBCLBool2SpaceRO,.IBCLBool3SpaceRO{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;padding-left:18px}
+.IBCLBoolIconSpace{background-repeat:no-repeat}
+.IBCLBool0Space{background-position:center 1px}
+.IBCLBool1Space{background-position:center -249px}
+.IBCLBoolXSpace{background-position:center -499px}
+.IBCLBool0SpaceRO{background-position:center -749px}
+.IBCLBool1SpaceRO{background-position:center -999px}
+.IBCLBoolXSpaceRO{background-position:center -1249px}
+.IBCLBool2Space,.IBCLBool2SpaceRO{background-position:center -1497px}
+.IBCLBool3Space,.IBCLBool3SpaceRO{background-position:center -1747px}
+.IBCLBoolImageSpace{display:inline-block;width:18px;height:21px;overflow:hidden;padding:0px}
+.IBCLBoolInput{margin-top:2px;margin-bottom:0px;padding:0px;margin-top:-2px!IE;margin-bottom:-6px!IE}
+.IBCLBoolInputSpace{margin-top:5px;margin-bottom:3px;padding:0px;margin-top:1px!IE;margin-bottom:1px!IE}
+.IBCLBoolChar0,.IBCLBoolChar1,.IBCLBoolChar2,.IBCLBoolChar0RO,.IBCLBoolChar1RO,.IBCLBoolChar2RO{height:9px;width:8px;border:2px ridge white;margin:2px auto 2px auto;font:bold 9px Arial;color:blue;text-align:center;overflow:hidden;}
+.IBCLBoolChar2{color:green}
+.IBCLBoolChar0RO,.IBCLBoolChar1RO,.IBCLBoolChar2RO{color:gray}
+.IBCLBoolCharIE{height:14px;width:12px}
+.IBCLPagerMain{overflow:hidden;white-space:nowrap}
+.IBCLPagerBody{background:#E8F4FF}
+.IBCLPagerBodyLeft{border-right:1px solid #c0c0ff}
+.IBCLPagerBodyRight{border-left:1px solid #c0c0ff}
+.IBCLPagerHeader{background:#FFF;border-bottom:1px solid #E8F4FF;cursor:default}
+.IBCLPagerHeaderLeft{border-right:1px solid #d0d0c0}
+.IBCLPagerHeaderRight{border-left:1px solid #d0d0c0}
+.IBCLPagerCaption{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:white;padding:5px 3px 4px 3px;white-space:nowrap}
+.IBCLPagerItem{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;overflow:hidden;white-space:nowrap;border-top:1px solid white;border-bottom:1px solid #e0e0ff;padding:0px 3px 0px 3px;}
+.IBCLPagerItemTouch{padding-top:4px;padding-bottom:4px}
+.IBCLPagerItemUsed{color:green}
+.IBCLPagerItemUnused{color:#888}
+.IBCLPagerItemExcluded{background:#DDD}
+.IBCLPagerSort1{color:#006600}
+.IBCLPagerSort2{color:#00AE00}
+.IBCLPagerSort3{color:#00FF00}
+.IBCLPagerSep1,.IBCLPagerSep2,.IBCLPagerSep3{color:black}
+.IBCLPagerFocus,.IBCLPagerFocus2,.IBCLPagerFocus3{position:relative;cursor:pointer;overflow:hidden;opacity:0.3;filter:alpha(opacity=30);border:1px solid black;background:#0FF;}
+.IBCLPagerFocus2{background:#F0F}
+.IBCLPagerFocus3{background:#AFA}
+.IBCLPagerHover{position:relative;cursor:pointer;overflow:hidden;background:#66F;opacity:0.2;filter:alpha(opacity=20);}
+.IBCLColorDefault{background-color:#FFFFFF}
+ .IBCLColorNoFocus{background-color:#E8F4FF}
+ .IBCLColorReadOnly{background-color:#F4F4F4}
+ .IBCLClassReadOnly{opacity:1 }
+.IBCLColorPreview{background-color:#FFFFFF}
+ .IBCLColorFormula{background-color:#FFCC99}
+ .IBCLColorEdit{background-color:#FFFFFF}
+ .IBCLColorAlternate{background-color:#fdfdfd}
+  .IBCLColorSelected{background-color:#fefcf6}
+ .IBCLClassSelected{color:red}
+ .IBCLColorSelectedCell{background-color:#fefcf6}
+ .IBCLClassSelectedCell{color:red}
+ .IBCLColorFill{background-color:#FF80FF}
+ .IBCLColorError{background-color:#FF6969}
+ .IBCLColorDeleted{background-color:#faeded}
+ .IBCLClassDeleted{font-style:italic}
+.IBCLColorAdded{background-color:#e9f8f1}
+ .IBCLClassAdded{font-weight:bold}
+.IBCLColorMoved1{background-color:#FFFFFF}
+ .IBCLColorMoved2{background-color:#D7EBEB}
+ .IBCLColorChanged{background-color:#fcfbf0}
+ .IBCLColorChangedCell{background-color:#fcfbf0}
+ .IBCLClassChangedCell{font-weight:bold}
+.IBCLColorMaxChildren{background-color:#FFFFF0}
+ .IBCLColorDetail{background-color:#FFF0FF}
+ .IBCLColorDetailSelected{background-color:#FFF0E0}
+ .IBCLColorDragged{background-color:#E0E0C0}
+ .IBCLColorCellMenu{background-color:#FA0}
+ .IBCLColorFound1{background-color:#FF87FF}
+  .IBCLColorFound2{background-color:#FFC387}
+  .IBCLColorFound3{background-color:#87FF87}
+   .IBCLColorHovered{background-color:#b2d0e9}
+ .IBCLColorHoveredCell{background-color:#eff6fc}
+ .IBCLColorHoveredCellReadOnly{background-color:#F0F0F0}
+ .IBCLColorHoveredCellNoFocus{background-color:#F8F8F8}
+ .IBCLColorHoveredCellHeader{background-color:#e5e5e5}
+ .IBCLColorHoveredCellHeaderIndex{background-color:#e5e5e5}
+.IBCLColorHoveredCellSpace{background-color:#FFFFFF}
+ .IBCLColorHoveredCellSpaceEdit{background-color:#FFFFFF}
+ .IBCLClassHoveredCellSpaceEdit > div{border:1px solid #E80!important}
+.IBCLColorHoveredCellSpaceDefaults{background-color:#FFFFFF}
+ .IBCLClassHoveredCellSpaceDefaults > div{background-position:right -500px!important}
+.IBCLColorHoveredCellSpaceBool0{background-color:#FFFFFE}
+ .IBCLClassHoveredCellSpaceBool0,.IBCLClassHoveredCellSpaceBool0 > u{background-position:center -749px}
+.IBCLColorHoveredCellSpaceBool1{background-color:#FFFFFE}
+ .IBCLClassHoveredCellSpaceBool1,.IBCLClassHoveredCellSpaceBool1 > u{background-position:center -999px}
+.IBCLColorHoveredCellSpaceBoolX{background-color:#FFFFFE}
+ .IBCLClassHoveredCellSpaceBoolX,.IBCLClassHoveredCellSpaceBoolX > u{background-position:center -1249px}
+.IBCLColorHoveredCellSpaceBoolIcon{background-color:#FFFFFE}
+ .IBCLColorHoveredCellButton{background-color:#FFFFFE}
+ .IBCLClassHoveredCellButton{color:green;background-color:#FA0!important}
+.IBCLColorHoveredCellButton1{background-color:#FFFFFE}
+ .IBCLClassHoveredCellButton1{color:red;background-color:#FA0!important}
+.IBCLColorHoveredCellButtonButton{background-color:#FFFFFE}
+ .IBCLClassHoveredCellButtonButton u{background-position:0px -253px}
+.IBCLColorHoveredCellButtonButton1{background-color:#FFFFFE}
+ .IBCLClassHoveredCellButtonButton1 u{background-position:0px -265px}
+.IBCLColorHoveredCellTab{background-color:#FFFFFE}
+ .IBCLClassHoveredCellTab{background:#FA0!important;color:green}
+.IBCLColorHoveredCellTab1{background-color:#99bbcc}
+ .IBCLClassHoveredCellTab1{background-image:none}
+.IBCLColorHoveredCellIndex{background-color:#eff6fc}
+ .IBCLColorFocused{background-color:#E6E6E6}
+  .IBCLColorFocusedCell,.IBCLColorFocusedCellRelative{background-color:#FFFFFE}
+ .IBCLClassFocusedCell,.IBCLClassFocusedCell *{color:black!important}
+.IBCLColorFocusedCellRect{background-color:#AFC}
+ .IBCLColorEditedCell{background-color:#FFFFFF}
+ .IBCLColorViewedCell{background-color:#FFFFFF}
+ .IBCLColorFocusedCellSafari{background-color:#A0A0FF}
+ .IBCLColorFocusedCellHeader{background-color:#FFFFFE}
+ .IBCLClassFocusedCellHeader{background-position:0px -250px}
+.IBCLColorFocusedCellSpace{background-color:#BCD}
+ .IBCLColorFocusedCellSpaceEdit{background-color:#FFFFFF}
+ .IBCLClassFocusedCellSpaceEdit > div{border:1px solid #E80!important}
+.IBCLColorFocusedCellSpaceDefaults{background-color:#FFFFFF}
+ .IBCLClassFocusedCellSpaceDefaults > div{background-position:right -500px!important}
+.IBCLColorFocusedCellSpaceBool{background-color:#BCD}
+ .IBCLColorFocusedCellButton{background-color:#BCD}
+ .IBCLColorSelectedCol{background-color:#F0F0B0}
+ .IBCLColorSelectedRow{background-color:#F0F0B0}
+.IBCLColorFocusedCol{background-color:#dfedfa}
+ .IBCLColorFocusedRow{background-color:#dfedfa}
+.IBCLColorEditedCol{background-color:#dfedfa}
+ .IBCLColorEditedRow{background-color:#dfedfa}
+.IBCLColorHoveredCol{background-color:rgba(96, 167, 230, 0.1)}
+ .IBCLColorHoveredRow{background-color:rgba(96, 167, 230, 0.1)}
+.IBCLHoverRowBackground{opacity:0.1;filter:alpha(opacity=10);background:rgb(96, 167, 230)}
+.IBCLHoverRowBorder{z-index:1;border-top:1px solid #b2d0e9;border-bottom:1px solid #b2d0e9;cursor:default}
+.IBCLHoverCellBorder{z-index:3;padding:1px;border:1px solid #94bbdb;background:#eff6fc}
+.IBCLFocusRowBackground{opacity:0.1;filter:alpha(opacity=10);background:#94b8da}
+.IBCLFocusRowBorder{z-index:2;border:1px solid #89b6db}
+.IBCLFocusCellBorder{z-index:4;border:2px solid #60a7e6}
+.IBCLFocusCellSpaceBorder{z-index:4}
+.IBCLFocusCellCorner{position:relative;padding:0px;border:1px solid white;background:#6666FF;margin-left:-3px;margin-top:-5px;width:5px;height:5px;z-index:4;cursor:crosshair}
+.IBCLFocusCellCornerTouch{width:10px;height:10px;margin-left:0px}
+.IBCLEditCellBorder{z-index:4;border:2px solid #3a83c4}
+.IBCLEditCellSpaceBorder{z-index:4}
+.IBCLEditCellCorner{position:relative;padding:0px;border:1px solid white;background:#FF6666;margin-left:-3px;margin-top:-5px;width:5px;height:5px;z-index:4;cursor:crosshair}
+.IBCLEditCellCornerTouch{width:10px;height:10px;margin-left:0px}
+.IBCLEditCellInput{position:relative;border:none;overflow:hidden;z-index:2;background-color:#FFF;line-height:0px;font-size:0px}
+.IBCLCursorBackground{position:relative;border:none;padding:0px;overflow:hidden}
+.IBCLCursorBorderLeft,.IBCLCursorBorderRight,.IBCLCursorBorderTop,.IBCLCursorBorderBottom{position:relative;overflow:hidden;width:0px;height:0px}
+.IBCLCursorBorderLeft{border-right:none!important;border-top:none!important;border-bottom:none!important;padding-right:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCLCursorBorderRight{border-left:none!important;border-top:none!important;border-bottom:none!important;padding-left:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCLCursorBorderTop{border-bottom:none!important;border-left:none!important;border-right:none!important;padding-bottom:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBCLCursorBorderBottom{border-top:none!important;border-left:none!important;border-right:none!important;padding-top:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBCLEditInput,.IBCLEditTextarea{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:0px none;margin:0px;padding:0px 3px 0px 0px;outline:none;box-sizing:content-box;resize:none}
+.IBCLEditInput::-ms-clear{height:13px}
+.IBCLEditNormalInput,.IBCLEditNormalTextarea{background-color:#FFF}
+.IBCLEditHeaderInput,.IBCLEditHeaderTextarea{background-color:#FFF;padding-top:2px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCLEditSpaceInput,.IBCLEditSpaceTextarea{background-color:#FFF}
+.IBCLEditInt,.IBCLEditFloat,.IBCLEditDate{text-align:right}
+.IBCLEditReadOnly{background-color:#FFEEFF}
+.IBCLMouseObject{opacity:0.5;filter:alpha(opacity=50);z-index:300;overflow:hidden}
+.IBCLVLine{width:1px;border-left:1px solid black;overflow:hidden;cursor:e-resize}
+.IBCLHLine{height:1px;border-top:1px solid black;overflow:hidden;cursor:e-resize}
+.IBCLDragObject{z-index:300;font:11.9px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;margin-left:15px;margin-top:10px;background:#E4E5F0;border:1px solid #777;padding-left:3px;padding-right:3px;}
+.IBCLDragColInsideTop,.IBCLDragColInsideBottom,.IBCLDragColOutsideTop,.IBCLDragColOutsideBottom,.IBCLDragRowLeft,.IBCLDragRowRight{position:absolute;background-image:url(./imgs/Sort.gif?v120);width:11px;height:11px;overflow:hidden;z-index:301;}
+.IBCLDragColInsideTop{background-position:-1px -1753px}
+.IBCLDragColInsideBottom{background-position:-1px -1772px}
+.IBCLDragColOutsideTop{background-position:-1px -1793px}
+.IBCLDragColOutsideBottom{background-position:-1px -1812px}
+.IBCLDragRowLeft{background-position:-2px -1832px}
+.IBCLDragRowRight{background-position:-1px -1852px}
+.IBCLDisabled,.IBCLDisabledHard{position:absolute;z-index:264;background:white;opacity:0;filter:alpha(opacity=0)}
+.IBCLDisabledHard{opacity:0.5;filter:alpha(opacity=50)}
+.IBCLMessage{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;text-align:center;visibility:hidden;z-index:266;position:absolute;left:0px;top:0px;background:#FFF;border:1px solid black;padding:10px;}
+.IBCLMessageShadow{position:absolute;left:0px;top:0px;margin-left:3px;margin-top:3px;z-index:265;visibility:hidden;background:#888;opacity:0.5;filter:alpha(opacity=50);}
+.IBCLPageMessage{background:#FAFAFA;border:1px solid black;padding:10px;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCLProgressMain{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCLProgressCaption{font-weight:bold;margin-bottom:15px}
+.IBCLProgressText{margin-bottom:15px}
+.IBCLProgressOuter{text-align:left;width:200px;border:1px solid black;padding:2px;margin-bottom:15px}
+.IBCLProgressInner{height:10px;background:green}
+.IBCLProgressButton,.IBCLMessageButton{border:1px solid #8a8fb5;background:#FFF;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;}
+.IBCLProgressButton{margin:5px 2px 0px 2px;padding-left:10px;padding-right:10px}
+.IBCLMessageButton{margin:10px 3px 0px 3px;width:50px}
+.IBCLMessageButtonHover,.IBCLProgressButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCLMenuMain{position:absolute;left:0px;top:0px;z-index:258}
+.IBCLMenuShadow{position:absolute;margin-left:3px;margin-top:3px;z-index:257;background:#888;opacity:0.5;filter:alpha(opacity=50)}
+.IBCLMenuOuter{overflow:hidden;background:white;border:1px solid #6c6c6e;padding:0px}
+.IBCLMenuHeader{overflow:hidden;position:absolute;z-index:258;border:1px solid #b0b0c0;background:white;cursor:pointer;user-select:none;-o-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;}
+.IBCLMenuHead{background:#183873;padding:3px 0px 4px 0px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;color:white;cursor:default;}
+.IBCLMenuClose{float:right;width:14px;cursor:pointer;display:none;background:url(./imgs/Menu.gif?v120) no-repeat right -354px}
+.IBCLMenuBody{cursor:default;padding-top:1px;padding-bottom:1px}
+.IBCLMenuFoot{border-top:1px solid #8CA9E1;background:#C6DBE9;margin-top:5px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;}
+.IBCLMenuButton{border:1px solid #8a8fb5;background:#dcecf8;width:48px;margin:5px 2px 4px 2px;padding-left:0px;padding-right:0px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;overflow:hidden;}
+.IBCLMenuButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCLMenuItem{padding:2px 3px 2px 3px}
+.IBCLMenuItemTouch{padding-top:5px;padding-bottom:5px}
+.IBCLMenuHover{margin-left:1px;margin-right:1px;padding:1px;background:#ffeeaa;border:1px solid #aaaadd}
+.IBCLMenuHoverTouch{padding-top:4px;padding-bottom:4px}
+.IBCLMenuFocus{margin-left:1px;margin-right:1px;padding:1px;background:#f1f1f1;border:1px solid #aaaadd}
+.IBCLMenuFocusTouch{padding-top:4px;padding-bottom:4px}
+.IBCLMenuFocus.IBCLMenuHover{background:#CAE1F3;border:1px solid black}
+.IBCLMenuCheckedIconLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -38px;background-size:13px;padding-left:15px}
+.IBCLMenuCheckedIconRight{background:url(./imgs/Menu.gif?v120) no-repeat right -38px;background-size:13px;padding-right:15px}
+.IBCLMenuUncheckedIconLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px 0px;background-size:13px;padding-left:15px}
+.IBCLMenuUncheckedIconRight{background:url(./imgs/Menu.gif?v120) no-repeat right 0px;background-size:13px;padding-right:15px}
+.IBCLMenuCheckedRadioLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -738px;background-size:13px;padding-left:15px}
+.IBCLMenuCheckedRadioRight{background:url(./imgs/Menu.gif?v120) no-repeat right -738px;background-size:13px;padding-right:15px}
+.IBCLMenuUncheckedRadioLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -700px;background-size:13px;padding-left:15px}
+.IBCLMenuUncheckedRadioRight{background:url(./imgs/Menu.gif?v120) no-repeat right -700px;background-size:13px;padding-right:15px}
+.IBCLMenuCheckedColor{background:#CAE1F3}
+.IBCLMenuCursorIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -150px}
+.IBCLMenuHoverIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -100px}
+.IBCLMenuCursorIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat right -1000px}
+.IBCLMenuHoverIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat right -950px}
+.IBCLMenuExpandedIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -200px}
+.IBCLMenuCollapsedIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -250px}
+.IBCLMenuNextIcon{background:url(./imgs/Menu.gif?v120) no-repeat right -300px;padding-right:10px}
+.IBCLMenuNextIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat left -900px;padding-left:10px}
+.IBCLMenuItemText,.IBCLMenuItemLeftHtml,.IBCLMenuItemRightHtml{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;overflow:hidden}
+.IBCLMenuItemIcon{background-repeat:no-repeat}
+.IBCLMenuItemDisabled{opacity:0.70;filter:alpha(opacity=70)}
+.IBCLMenuLevel{color:blue;text-align:center}
+.IBCLMenuEnumParent{padding-left:5px;padding-right:2px}
+.IBCLMenuEnum,.IBCLMenuEnumHeaderLeft{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;overflow:hidden}
+.IBCLMenuEnum{border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;background:white url(./imgs/Menu.gif?v120) no-repeat left -800px;padding-left:15px}
+.IBCLMenuEnumHeaderLeft{background:url(./imgs/Menu.gif?v120) no-repeat left -799px;padding:1px 0px 2px 15px;cursor:default}
+.IBCLMenuEnumParent,.IBCLMenuEnum,.IBCLMenuEnumHeaderLeft{width:90px}
+.IBCLMenuEditParent{padding-left:5px;padding-right:2px}
+.IBCLMenuEdit,.IBCLMenuEditIE{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;background:white;overflow:hidden;white-space:nowrap;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;padding-left:3px;padding-right:3px;height:13px;}
+.IBCLMenuEditIE{height:15px}
+.IBCLMenuEditParent,.IBCLMenuEdit,.IBCLMenuEditIE{width:30px}
+.IBCLMenuEditParentPDFName,.IBCLMenuEditParentPDFName .IBCLMenuEdit,.IBCLMenuEditParentPDFName .IBCLMenuEditIE,.IBCLMenuEditParentExportName,.IBCLMenuEditParentExportName .IBCLMenuEdit,.IBCLMenuEditParentExportName .IBCLMenuEditIE{width:104px}
+.IBCLMenuEditMulti{white-space:normal}
+.IBCLMenuEditEdit{background:#FDD}
+.IBCLMenuEditInput,.IBCLMenuEditTextarea{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:0px none;margin:0px;padding:0px;outline:none;background:#FDD;box-sizing:content-box;resize:none;}
+.IBCLMenuEditInput::-ms-clear{height:13px}
+.IBCLMenuEditInt,.IBCLMenuEditFloat,.IBCLMenuEditDate{text-align:right}
+.IBCLMenuCaption{padding:16px 2px 8px 2px;color:blue;text-align:center}
+.IBCLMenuSeparator{margin:3px 3px 2px 3px;height:1px;border-top:1px solid #aaaadd;overflow:hidden}
+.IBCLMenuVSeparator{border-right:1px solid #DDD;width:1px}
+.IBCLFilterMenuMain{margin-left:-4px;margin-top:-2px}
+.IBCLFilterMenuHeaderBottom{margin-left:-4px;margin-top:-2px;padding:2px 2px 0px 4px;border-bottom:0px none}
+.IBCLFilterMenuHeaderTop{margin-left:-4px;margin-top:-2px;padding:1px 2px 1px 4px;border-top:0px none}
+.IBCLFilterMenuShadow{margin-left:-1px}
+.IBCLEnumMenuHeader{background:white}
+.IBCLEnumMenuHeaderBottom{padding-top:1px}
+.IBCLEnumMenuHeaderTop{padding-bottom:1px}
+.IBCLEnumHeaderLeft,.IBCLEnumHeaderRight,.IBCLEnumHeaderNone{background:white;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding:2px 4px 2px 2px;white-space:nowrap;cursor:pointer;}
+.IBCLEnumHeaderLeft{background:white url(./imgs/Menu.gif?v120) no-repeat 1px -798px;padding-left:17px}
+.IBCLEnumHeaderRight{background:white url(./imgs/Menu.gif?v120) no-repeat right -798px;padding-right:17px}
+.IBCLToolMenuHeader{border:1px solid #e0e0ff;margin-top:1px}
+.IBCLToolMenuOuter{border:1px solid #e0e0ff;background:#E8F4FF}
+.IBCLToolHeader,.IBCLToolHeaderAbove,.IBCLToolHeaderBelow{border:none;padding:1px 5px 100px 2px}
+.IBCLToolHeaderAbove{padding-top:2px;padding-left:4px}
+.IBCLToolHeaderBelow{padding-top:1px;padding-left:4px}
+.IBCLCfgMenuOuter,.IBCLColumnsMenuOuter{border:1px solid black}
+.IBCLCfgMenuHead,.IBCLColumnsMenuHead{padding-left:3px}
+.IBCLCfgMenuBody,.IBCLColumnsMenuBody{padding-left:4px;padding-right:4px}
+.IBCLCfgMenuFoot,.IBCLColumnsMenuFoot{padding-right:3px;padding-left:3px}
+.IBCLCfgMenuButton{width:72px}
+.IBCLColumnsMenuButton{width:52px}
+.IBCLCfgMenuItemText{padding-left:3px}
+.IBCLColumnsMenuItemText{padding-left:3px;white-space:nowrap}
+.IBCLCfgMenuItem,.IBCLColumnsMenuItem{padding-top:3px;padding-bottom:3px}
+.IBCLCfgMenuHover,.IBCLColumnsMenuHover{padding-top:2px;padding-bottom:2px}
+.IBCLCfgMenuFocus,.IBCLColumnsMenuFocus{padding-top:2px;padding-bottom:2px}
+.IBCLCfgMenuItemTouch,.IBCLColumnsMenuItemTouch{padding-top:6px;padding-bottom:6px}
+.IBCLCfgMenuHoverTouch,.IBCLColumnsMenuHoverTouch{padding-top:5px;padding-bottom:5px}
+.IBCLCfgMenuFocusTouch,.IBCLColumnsMenuFocusTouch{padding-top:5px;padding-bottom:5px}
+.IBCLEditDialogSheetMain .IBCLRowAboveFirst > table .IBCLCellSpace{vertical-align:middle}
+.IBCLEditDialogSheetMain .IBCLRowBelow > table .IBCLCellSpaceButtonButton{vertical-align:middle}
+.IBCLEditDialogSheetMain .IBCLRowAboveFirst > table .IBCLSpaceWidthInner{font:18.0px/18px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCLEditDialogSheetMain .IBCLMainTable .IBCLHeadMid{border-top:1px solid #cfd1d6;border-bottom:0px solid #cfd1d6}
+.IBCLPopupSheetOuter{border:0px none;overflow:visible}
+.IBCLPopupSheetHead{padding:0px}
+.IBCLPopupSheetBody{padding:0px}
+.IBCLPopupSheetFoot{padding:0px}
+.IBCLPopupSheetButton{width:50px;margin-top:-2px;margin-bottom:3px}
+.IBCLMenuItemBorderStyle{margin-bottom:9px;height:7px;width:50px;border-bottom-color:black}
+.IBCLMenuItemBorderEmpty{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#D4D4D4}
+.IBCLMenuItemBorder0{border-bottom:0px none}
+.IBCLMenuItemBorder1{border-bottom-width:1px;border-bottom-style:solid}
+.IBCLMenuItemBorder2{border-bottom-width:2px;border-bottom-style:solid}
+.IBCLMenuItemBorder3{border-bottom-width:3px;border-bottom-style:solid}
+.IBCLMenuItemBorder4{border-bottom-width:1px;border-bottom-style:dotted}
+.IBCLMenuItemBorder5{border-bottom-width:2px;border-bottom-style:dotted}
+.IBCLMenuItemBorder6{border-bottom-width:1px;border-bottom-style:dashed}
+.IBCLMenuItemBorder7{border-bottom-width:2px;border-bottom-style:dashed}
+.IBCLMenuItemBorderEdge{height:20px;width:24px;background-image:url(./imgs/ToolbarSheetWide.png?v120);-background-image:url(./imgs/ToolbarSheetWide.gif?v120);background-repeat:no-repeat}
+.IBCLMenuItemBorder{background-position:left -200px}
+.IBCLMenuItemBorderAll{background-position:left -300px}
+.IBCLMenuItemBorderO15{background-position:left -400px}
+.IBCLMenuItemBorderI3{background-position:left -500px}
+.IBCLMenuItemBorderI2{background-position:left -600px}
+.IBCLMenuItemBorderI1{background-position:left -700px}
+.IBCLMenuItemBorderO1{background-position:left -800px}
+.IBCLMenuItemBorderO2{background-position:left -900px}
+.IBCLMenuItemBorderO4{background-position:left -1000px}
+.IBCLMenuItemBorderO8{background-position:left -1100px}
+.IBCLMenuItemBorderO5{background-position:left -1200px}
+.IBCLMenuItemBorderO10{background-position:left -1300px}
+.IBCLPickMain{position:absolute;left:0px;top:0px;z-index:258}
+.IBCLPickShadow{position:absolute;background:#888;z-index:257;margin-left:3px;margin-top:3px;opacity:0.5;filter:alpha(opacity=50)}
+.IBCLPickOuter{border:1px solid #6c6c6e;background:white;padding:0px;overflow:hidden}
+.IBCLPickBody{cursor:default;padding:0px}
+.IBCLPickHeader{position:absolute;z-index:258;border:1px solid black;background:white;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;overflow:hidden;cursor:pointer;}
+.IBCLPickHeaderBottom{border-bottom:0px none}
+.IBCLPickHeaderTop{border-top:0px none}
+.IBCLPickHead,.IBCLPickFoot{background:#5c8397;padding:1px 0px 1px 5px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:white;cursor:default}
+.IBCLPickHead{border-bottom:1px solid white}
+.IBCLPickFoot{border-top:1px solid white}
+.IBCLPickClose{float:right;width:14px;cursor:pointer;display:none;background:url(./imgs/Menu.gif?v120) no-repeat right -354px}
+.IBCLPickMY{background:#fff;padding:8px 0 7px 0;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#2d384a;font-weight:bold;border-bottom:1px solid #cfd1d6;cursor:default;text-align:center;}
+.IBCLPickMYDown{padding-right:13px;background:url(./imgs/Menu.gif?v120) no-repeat right -400px;cursor:pointer}
+.IBCLPickMYUp{padding-right:13px;background:url(./imgs/Menu.gif?v120) no-repeat right -450px;cursor:pointer}
+.IBCLPickMYRtl{padding-right:0px;padding-left:13px}
+.IBCLPickBL,.IBCLPickBR{width:16px;line-height:13px;padding:2px 0px 4px 0px;overflow:hidden;cursor:pointer;display:none;margin-top:6px}
+.IBCLPickBL{float:left;background:url(./imgs/Menu.gif?v120) no-repeat left -500px}
+.IBCLPickBR{float:right;background:url(./imgs/Menu.gif?v120) no-repeat right -550px}
+.IBCLPickTable{table-layout:fixed;width:0px}
+.IBCLPickRow{background:white}
+.IBCLPickRow > td:first-child{background:#f1f3fa}
+.IBCLPickRowW{background:#ebedf3}
+.IBCLPickRowW > td{border-bottom:1px solid #cfd1d6}
+.IBCLPickCell{width:25px}
+.IBCLPickCellTouch{width:32px}
+.IBCLPickWDN{margin:2px 3px 2px 3px;padding:1px;font:11px/13px Arial,Helvetica,sans-serif;color:#333333;text-align:center;cursor:default}
+.IBCLPickHover,.IBCLPickSelHover,.IBCLPickWD,.IBCLPickSa,.IBCLPickSu,.IBCLPickSel,.IBCLPickNow,.IBCLPickWDNE,.IBCLPickSaNE,.IBCLPickSuNE,.IBCLPickSelNE,.IBCLPickNowNE,.IBCLPickOM,.IBCLPickOMNE{margin:2px;padding:0px 1px 0px 1px;border:1px solid white;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;cursor:pointer;line-height:22px;}
+.IBCLPickWN,.IBCLPickWNE{background:#f1f3fa;padding:3px 4px 3px 4px;border-right:none;font:11px/13px Arial,Helvetica,sans-serif;text-align:center;cursor:pointer;}
+.IBCLPickWNE{cursor:default}
+.IBCLPickWDNE,.IBCLPickSaNE,.IBCLPickSuNE,.IBCLPickSelNE,.IBCLPickNowNE{cursor:default;text-decoration:line-through}
+.IBCLPickWD{background-color:white}
+.IBCLPickSa{background-color:white}
+.IBCLPickSu{background-color:white}
+.IBCLPickSel{background-color:#c0f3ff;border:1px solid #dad1d1}
+.IBCLPickSelNE{background-color:#c0f3ff;border:1px solid #dad1d1}
+.IBCLPickNow{background-color:#fbea54;border:1px solid #fbea54}
+.IBCLPickNowNE{background-color:#fbea54;border:1px solid #fbea54}
+.IBCLPickOM{background-color:white;color:#aaaaaa}
+.IBCLPickOMNE{color:#aaaaaa;cursor:default;text-decoration:line-through}
+.IBCLPickEmpty{background:url(./imgs/Menu.gif?v120) no-repeat center -1050px;cursor:pointer;height:17px}
+.IBCLPickHover{background-color:#ddd;border:1px solid #ddd}
+.IBCLPickSelHover{background-color:#7cd4e7;border:1px solid #ddd}
+.IBCLPickTouch{line-height:18px}
+.IBCLPick2Table{table-layout:fixed;width:0px;margin-left:3px;margin-right:3px}
+.IBCLPick2CellM{height:22px;width:60px}
+.IBCLPick2CellMTouch{height:26px;width:75px}
+.IBCLPick2CellY{height:22px;width:35px}
+.IBCLPick2CellYTouch{height:26px;width:45px}
+.IBCLPick2CellSep{height:22px;width:5px}
+.IBCLPick2CellSepTouch{height:26px;width:5px}
+.IBCLPick2SepH{width:1px;height:2px;overflow:hidden}
+.IBCLPick2SepHTouch{height:7px}
+.IBCLPick2M,.IBCLPick2Y,.IBCLPick2MSel,.IBCLPick2YSel,.IBCLPick2MHover,.IBCLPick2YHover,.IBCLPick2MSelHover,.IBCLPick2YSelHover{margin-left:1px;margin-right:1px;padding:3px 1px 2px 1px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;text-align:center;overflow:hidden;}
+.IBCLPick2MSel,.IBCLPick2YSel{background:#c0f3ff;border:1px solid #dad1d1;margin-left:0px;margin-right:0px}
+.IBCLPick2MHover,.IBCLPick2YHover{background:#DDD;border:1px solid white;margin-left:0px;margin-right:0px}
+.IBCLPick2MSelHover,.IBCLPick2YSelHover{background:#80e0f0;border:1px solid white;margin-left:0px;margin-right:0px;padding:3px 1px 2px 1px}
+.IBCLPick2Touch{line-height:18px}
+.IBCLPick2Sep{width:1px;background:#ebedf3;overflow:hidden;margin-left:2px;margin-right:2px;height:22px}
+.IBCLPick2SepTouch{height:26px}
+.IBCLPick2BL,.IBCLPick2BR{width:35px;cursor:pointer;height:22px}
+.IBCLPick2CellYTouch .IBCLPick2BL,.IBCLPick2CellYTouch .IBCLPick2BR{margin-left:5px}
+.IBCLPick2BL{background:url(./imgs/Menu.gif?v120) no-repeat center -595px}
+.IBCLPick2BR{background:url(./imgs/Menu.gif?v120) no-repeat center -645px}
+.IBCLPickFooter,.IBCLPick2Footer.IBCLPickTimeCell{border-top:1px solid #adf;background:#f0f6ff;text-align:right;line-height:0px}
+.IBCLPickTime{background:#f0f6ff;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;margin:0px;padding:0px;border:0px none;white-space:nowrap;text-align:right;outline:none;}
+.IBCLPickFooter,.IBCLPick2Footer{border-top:1px solid #cfd1d6;background:#ebedf3;padding-top:1px;cursor:default;text-align:center;}
+.IBCLPickButton{background:#fff;border:1px solid #6c6c6e;width:60px;margin:5px 2px 4px 2px;padding-left:0px;padding-right:0px;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;overflow:hidden;}
+.IBCLPickButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCLEditParent{position:absolute;z-index:258;overflow:hidden}
+.IBCLEdit,.IBCLEditInline{padding:2px 4px 2px 4px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;background:white;white-space:nowrap;overflow:hidden;}
+.IBCLEditInline{display:inline-block;vertical-align:bottom}
+.IBCLEditMulti{white-space:normal}
+.IBCLEnumControl,.IBCLEnumInline{background:white url(./imgs/Menu.gif?v120) no-repeat left -797px;overflow:hidden;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;padding:2px 4px 2px 15px;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;}
+.IBCLEnumInline{display:inline-block;vertical-align:bottom}
+.IBCLEnumHeader{background:white url(./imgs/Menu.gif?v120) no-repeat left -798px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;padding:2px 4px 2px 15px}
+.IBCLMouseOrig{background:yellow!important;opacity:0.5;filter:alpha(opacity=50)}
+.IBCLMouseDragObject{position:absolute;z-index:260;background:#888;opacity:0.5;filter:alpha(opacity=50)}
+.IBCLFocus{border:1px solid #AAF;border-top:1px solid #00F;border-left:1px solid #00F;background-color:#EEE}
+.IBCLHintMain{position:absolute;margin-left:-2px;margin-top:-2px;padding-left:1px;padding-top:1px;left:0px;top:0px;z-index:260;background:white;cursor:default;border:1px solid black;}
+.IBCLHintHeaderMain{padding:0px;margin-top:-1px}
+.IBCLHintSpaceMain{margin-left:-1px;margin-top:-1px;padding:0px;overflow:hidden}
+.IBCLHintSpaceEditMain,.IBCLHintSpaceSelectMain{border:0px none;background:none;margin-left:0px;margin-top:0px;padding:0px;overflow:hidden}
+.IBCLHintSpaceSelectMain{border:1px solid black}
+.IBCLHintOuter{overflow:hidden;background:white;color:black;text-align:left;border-color:white;vertical-align:middle;display:table-cell}
+ .IBCLHintOuter *{text-align:left}
+.IBCLHintSpaceOuter{background:#D5E9FE!important;vertical-align:middle;margin-left:-1px;margin-top:-1px}
+.IBCLHintSpaceEditOuter{background:#D5E9FE}
+.IBCLHintSpaceSelectOuter{margin-top:-1px;margin-bottom:-1px}
+.IBCLHintHeaderOuter{background:#f9f9fa;color:#2d384a;font-size:14px;font-weight:bold;vertical-align:middle;border-left:1px solid white!important;border-bottom:1px solid white}
+.IBCLHintShadow{position:absolute;margin-left:2px;margin-top:2px;z-index:259;background:#888;opacity:0.3;filter:alpha(opacity=30)}
+.IBCLHintSpaceShadow{margin-left:4px;margin-top:4px}
+.IBCLHintSpaceEditShadow,.IBCLHintSpaceSelectShadow{margin-left:4px;margin-top:4px}
+.IBCLTipMain{position:absolute;left:0px;top:0px;z-index:262;visibility:hidden}
+.IBCLTipOuter{background:#E4E5F0;border:1px solid #777;padding:1px 3px 1px 3px;overflow:hidden;cursor:default}
+.IBCLTipBody{font:12px/14px Arial,Helvetica,sans-serif;white-space:nowrap}
+.IBCLTipShadow{position:absolute;margin-left:3px;margin-top:3px;z-index:261;background:#888;opacity:0.3;filter:alpha(opacity=30);visibility:hidden}
+.IBCLChart{padding:5px}
+.IBCLChartInner{background:white;width:100%}
+.IBCLChartLayer{overflow:hidden;height:1000px}
+.IBCLChartAxisY{background:black;height:1px;overflow:hidden}
+.IBCLChartAxisYLabel{overflow:hidden}
+.IBCLChartAxisYText{margin-right:5px;margin-top:12px;text-align:right;font:12px/14px Arial,Helvetica,sans-serif}
+.IBCLChartAxisX{width:1px;overflow:hidden;background:black}
+.IBCLChartAxisXLabel{overflow:hidden}
+.IBCLChartAxisXText{text-align:center;font:12px/14px Arial,Helvetica,sans-serif}
+.IBCLChartCaption{text-align:center;font:12px/14px Arial,Helvetica,sans-serif;margin-top:3px}
+.IBCLCustScroll1RightHidden{background:url(./imgs/VScroll.gif?v120) left -108px;height:17px}
+.IBCLCustScroll1Right{padding-right:17px;background:url(./imgs/VScroll.gif?v120) right 0px}
+.IBCLCustScroll1RightHover{padding-right:17px;background:url(./imgs/VScroll.gif?v120) right -18px}
+.IBCLCustScroll1Left{padding-left:17px;background:url(./imgs/VScroll.gif?v120) left 0px}
+.IBCLCustScroll1LeftHover{padding-left:17px;background:url(./imgs/VScroll.gif?v120) left -18px}
+.IBCLCustScroll1SliderRight{background:url(./imgs/VScroll.gif?v120) right -36px;padding-right:1px}
+.IBCLCustScroll1SliderRightHover{background:url(./imgs/VScroll.gif?v120) right -72px;padding-right:1px}
+.IBCLCustScroll1SliderLeft{background:url(./imgs/VScroll.gif?v120) left -36px;padding-left:1px}
+.IBCLCustScroll1SliderLeftHover{background:url(./imgs/VScroll.gif?v120) left -72px;padding-left:1px}
+.IBCLCustScroll1SliderHIn{height:17px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -54px}
+.IBCLCustScroll1SliderHInHover{height:17px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -90px}
+.IBCLCustScroll1X{background:#F4F4F4;cursor:default}
+.IBCLCustScroll2RightHidden{background:url(./imgs/VScroll.gif?v120) left -364px;height:34px}
+.IBCLCustScroll2Right{padding-right:36px;background:url(./imgs/VScroll.gif?v120) right -148px}
+.IBCLCustScroll2RightHover{padding-right:36px;background:url(./imgs/VScroll.gif?v120) right -184px}
+.IBCLCustScroll2Left{padding-left:36px;background:url(./imgs/VScroll.gif?v120) left -148px}
+.IBCLCustScroll2LeftHover{padding-left:36px;background:url(./imgs/VScroll.gif?v120) left -184px}
+.IBCLCustScroll2SliderRight{background:url(./imgs/VScroll.gif?v120) right -220px;padding-right:1px}
+.IBCLCustScroll2SliderRightHover{background:url(./imgs/VScroll.gif?v120) right -292px;padding-right:1px}
+.IBCLCustScroll2SliderLeft{background:url(./imgs/VScroll.gif?v120) left -220px;padding-left:1px}
+.IBCLCustScroll2SliderLeftHover{background:url(./imgs/VScroll.gif?v120) left -292px;padding-left:1px}
+.IBCLCustScroll2SliderHIn{height:34px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -256px}
+.IBCLCustScroll2SliderHInHover{height:34px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -328px}
+.IBCLCustScroll2X{background:#F4F4F4;cursor:default}
+.IBCLCustScroll3Right,.IBCLCustScroll3RightHidden{background:white;height:9px}
+.IBCLCustScroll3SliderRight,.IBCLCustScroll3SliderRightHover{padding-right:3px;height:9px;background:url(./imgs/VScroll.gif?v120) right -126px}
+.IBCLCustScroll3SliderRightHover{background-position:right -135px}
+.IBCLCustScroll3SliderLeft,.IBCLCustScroll3SliderLeftHover{height:9px;background:url(./imgs/VScroll.gif?v120) left -126px}
+.IBCLCustScroll3SliderLeftHover{background-position:left -135px}
+.IBCLCustScroll3X{background:white;cursor:default}
+.IBCLCustScroll4Right,.IBCLCustScroll4RightHidden,.IBCLCustScroll4SliderRight,.IBCLCustScroll4SliderRightHover{height:1px}
+.IBCLCustScroll1DownHidden{background:url(./imgs/HScroll.png?v120) -108px top;width:16px}
+.IBCLCustScroll1Down{padding-bottom:17px;background:url(./imgs/HScroll.png?v120) 0px bottom}
+.IBCLCustScroll1DownHover{padding-bottom:17px;background:url(./imgs/HScroll.png?v120) -18px bottom}
+.IBCLCustScroll1Up{padding-top:17px;background:url(./imgs/HScroll.png?v120) 0px top}
+.IBCLCustScroll1UpHover{padding-top:17px;background:url(./imgs/HScroll.png?v120) -18px top}
+.IBCLCustScroll1SliderDown{background:url(./imgs/HScroll.png?v120) -36px bottom;padding-bottom:1px}
+.IBCLCustScroll1SliderDownHover{background:url(./imgs/HScroll.png?v120) -72px bottom;padding-bottom:1px}
+.IBCLCustScroll1SliderUp{background:url(./imgs/HScroll.png?v120) -36px top;padding-top:1px}
+.IBCLCustScroll1SliderUpHover{background:url(./imgs/HScroll.png?v120) -72px top;padding-top:1px}
+.IBCLCustScroll1SliderVIn{background:url(./imgs/HScroll.png?v120) -54px center}
+.IBCLCustScroll1SliderVInHover{background:url(./imgs/HScroll.png?v120) -90px center}
+.IBCLCustScroll2DownHidden{background:url(./imgs/HScroll.png?v120) -364px top;width:33px}
+.IBCLCustScroll2Down{padding-bottom:36px;background:url(./imgs/HScroll.png?v120) -148px bottom}
+.IBCLCustScroll2DownHover{padding-bottom:36px;background:url(./imgs/HScroll.png?v120) -184px bottom}
+.IBCLCustScroll2Up{padding-top:36px;background:url(./imgs/HScroll.png?v120) -148px top}
+.IBCLCustScroll2UpHover{padding-top:36px;background:url(./imgs/HScroll.png?v120) -184px top}
+.IBCLCustScroll2SliderDown{background:url(./imgs/HScroll.png?v120) -220px bottom;padding-bottom:1px}
+.IBCLCustScroll2SliderDownHover{background:url(./imgs/HScroll.png?v120) -292px bottom;padding-bottom:1px}
+.IBCLCustScroll2SliderUp{background:url(./imgs/HScroll.png?v120) -220px top;padding-top:1px}
+.IBCLCustScroll2SliderUpHover{background:url(./imgs/HScroll.png?v120) -292px top;padding-top:1px}
+.IBCLCustScroll2SliderVIn{background:url(./imgs/HScroll.png?v120) -256px center}
+.IBCLCustScroll2SliderVInHover{background:url(./imgs/HScroll.png?v120) -328px center}
+.IBCLCustScroll3Down,.IBCLCustScroll3DownHidden{background:white;width:8px}
+.IBCLCustScroll3SliderDown,.IBCLCustScroll3SliderDownHover{padding-bottom:3px;background:url(./imgs/HScroll.png?v120) -126px bottom}
+.IBCLCustScroll3SliderDownHover{background-position:-135px bottom}
+.IBCLCustScroll3SliderUp,.IBCLCustScroll3SliderUpHover{background:url(./imgs/HScroll.png?v120) -126px top}
+.IBCLCustScroll3SliderUpHover{background-position:-135px top}
+.IBCLCustScroll4Down,.IBCLCustScroll4DownHidden,.IBCLCustScroll4SliderDown,.IBCLCustScroll4SliderDownHover{width:0px}
+.SheetDebugTag,.SheetDebugTagMax{overflow:auto;overflow-y:scroll;border:1px solid black;background:#DDD}
+.SheetDebugTag,.SheetDebugTagMax,.SheetDebugButtons,.SheetDebugButtonsMax{position:fixed;z-index:256;left:5px;right:5px;bottom:5px;height:200px;padding:4px;position:absolute!IE;left:expression((5+(document.compatMode=="CSS1Compat"?document.documentElement.scrollLeft:document.body.scrollLeft))+"px")!IE;width:expression((-10+(document.compatMode=="CSS1Compat"?document.documentElement.clientWidth-8:document.body.clientWidth))+"px")!IE;top:expression((-205+(document.compatMode=="CSS1Compat"?document.documentElement.scrollTop+document.documentElement.clientHeight-8:document.body.scrollTop+document.body.clientHeight))+"px")!IE;}
+.SheetDebugTagMax,.SheetDebugButtonsMax{top:5px;height:auto;top:expression((5+(document.compatMode=="CSS1Compat"?document.documentElement.scrollTop:document.body.scrollTop))+"px")!IE;height:expression((-10+(document.compatMode=="CSS1Compat"?document.documentElement.clientHeight-8:document.body.clientHeight))+"px")!IE;}
+.SheetDebugButtons,.SheetDebugButtonsMax{text-align:right;margin-right:25px;width:130px;left:auto;left:expression((-155+(document.compatMode=="CSS1Compat"?document.documentElement.clientWidth-8:document.body.clientWidth))+"px")!IE;}
+.SheetDebugButton{font-size:10px;width:40px;padding:0px}
+.SheetDebugTitle{font-size:10px;color:blue;font-style:normal;font-weight:normal}
+.SheetDebugMark{font-weight:bold}
+.SheetDebugStop{font-size:18px;font-weight:bold;color:red}
+.SheetDebugError{font-size:12px;color:red}
+.SheetDebugWarning{font-size:12px;color:#A60}
+.SheetDebugList{font-size:10px;color:#888}
+.SheetDebugInfo{font-size:12px}
+.IBCLAnimateOverflow{overflow:hidden}
+@keyframes IBCLExpandH{from{height:0px}
+ }
+@keyframes IBCLCollapseH{to{height:0px}
+ }
+.IBCLAnimateTransparent{opacity:0}
+@keyframes IBCLShow{from{opacity:0}
+ to{opacity:1}
+ }
+@keyframes IBCLHide{from{opacity:1}
+ to{opacity:0}
+ }
+.IBCLAnimateHidden{display:none}
+.IBCLAnimateVisible{display:inherit}
+.IBCLAnimateLeftTop{overflow:hidden;transform-origin:0% 0%}
+.IBCLAnimateCenterTop{overflow:hidden;transform-origin:50% 0%}
+.IBCLAnimateRightTop{overflow:hidden;transform-origin:100% 0%}
+.IBCLAnimateLeftBottom{overflow:hidden;transform-origin:0% 100%}
+.IBCLAnimateRightBottom{overflow:hidden;transform-origin:100% 100%}
+.IBCLAnimateCenterBottom{overflow:hidden;transform-origin:50% 100%}
+.IBCLAnimateLeftCenter{overflow:hidden;transform-origin:0% 50%}
+.IBCLAnimateRightCenter{overflow:hidden;transform-origin:100% 50%}
+.IBCLAnimateCenterCenter{overflow:hidden;transform-origin:50% 50%}
+@keyframes IBCLZoomInH{from{height:0px;transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCLZoomOutH{from{transform:scale(1,1)}
+ to{transform:scale(1,0);height:0px}
+ }
+@keyframes IBCLZoomInY{from{transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCLZoomOutY{from{transform:scale(1,1)}
+ to{transform:scale(1,0)}
+ }
+@keyframes IBCLZoomInX{from{transform:scale(0,1)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCLZoomOutX{from{transform:scale(1,1)}
+ to{transform:scale(0,1)}
+ }
+@keyframes IBCLZoomIn{from{transform:scale(0)}
+ to{transform:scale(1)}
+ }
+@keyframes IBCLZoomOut{from{transform:scale(1)}
+ to{transform:scale(0)}
+ }
+@keyframes IBCLRotateX90{0%{transform:rotateX(0deg)}
+ 50%{transform:rotateX(90deg)}
+ 100%{transform:rotateX(0deg)}
+ }
+@keyframes IBCLRotateX90To{from{transform:rotateX(0deg)}
+ to{transform:rotateX(90deg)}
+ }
+@keyframes IBCLRotateX90From{from{transform:rotateX(90deg)}
+ to{transform:rotateX(0deg)}
+ }
+@keyframes IBCLRotateY90{0%{transform:rotateY(0deg)}
+ 50%{transform:rotateY(90deg)}
+ 100%{transform:rotateY(0deg)}
+ }
+@keyframes IBCLRotateY90To{from{transform:rotateY(0deg)}
+ to{transform:rotateY(90deg)}
+ }
+@keyframes IBCLRotateY90From{from{transform:rotateY(90deg)}
+ to{transform:rotateY(0deg)}
+ }
+@keyframes IBCLFocus{0%{color:inherit}
+ 50%{color:red}
+ 100%{color:inherit}
+ }
+@keyframes IBCLCopy{0%{transform:translateX(0px)}
+ 25%{transform:translateX(1px)}
+ 75%{transform:translateX(-1px)}
+ 100%{transform:translateX(0px)}
+ }
+@keyframes IBCLOpacityBlink{0%{opacity:1}
+ 50%{opacity:0.2}
+ 100%{opacity:1}
+ }
+@keyframes IBCLBackgroundBlink{0%{background-color:#FFF}
+ 50%{background-color:#888}
+ 100%{background-color:#FFF}
+ }
+.IBCLMark{background-color:#AAA!important}
+@keyframes IBCLMark{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCLHighlight{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 50%{background-color:#FFF}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCLHighlightDeselect{0%{background-color:#FFF}
+ 25%{background-color:#FF0}
+ 50%{background-color:#FFF}
+ 75%{background-color:#FF0}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCLHighlightSelect{0%{background-color:#FF0}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FF0}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FF0}
+ }
+@keyframes IBCLHighlightDelete{0%{background-color:#FAA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FAA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FAA}
+ }
+@keyframes IBCLHighlightMove{0%{background-color:#AEE}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AEE}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AEE}
+ }
+@keyframes IBCLHighlightAdd{0%{background-color:#AFA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AFA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AFA}
+ }
+@keyframes IBCLHighlightChange{0%{background-color:#AAF}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AAF}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AAF}
+ }
+.IBCLBodyPrint{margin:0px!important;padding:0px!important;border:0px none!important;background:none!important;-webkit-print-color-adjust:exact}
+.IBCLResizeBorder{border:1px dashed black!important}
+.SheetNoMomentumScroll *{-webkit-overflow-scrolling:auto!important}
+.SheetTmpTag{position:absolute;left:5px;top:5px;visibility:hidden}
+.SheetCalcWidth table{width:auto!important}
+.SheetDisabled{position:absolute;z-index:256;background:white;opacity:0.5;filter:alpha(opacity=50)}
+.IBCLMain{z-index:255}
+.IBCLLoaded{border:1px solid black!important}
